@@ -1,6 +1,11 @@
 ! Damn comments
 heise.de###meldung > div.article-layout__content-container:last-child > div.article-layout__content.article-content:first-child > footer.article-layout__footer:last-child > a.comment-button:first-child
 youtube.com###comments
+thecoppersanctum.github.io##a:nth-child(5) > img
+n-tv.de###JKbgcbf > img
+n-tv.de###oRcaTyA > img
+golem.de###tusplit1 > div.g.g4.u-clear:nth-child(2)
+golem.de###tusplit2 > div.g.g6:last-child > div.career-widget:first-child
 
 ! General Social contents
 /dp-magjam/img/social/evernote-box.
