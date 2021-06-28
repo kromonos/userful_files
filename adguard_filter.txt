@@ -1,6 +1,14 @@
 ! Damn comments
 heise.de###meldung > div.article-layout__content-container:last-child > div.article-layout__content.article-content:first-child > footer.article-layout__footer:last-child > a.comment-button:first-child
 youtube.com###comments
+thecoppersanctum.github.io##a:nth-child(5) > img
+golem.de###tusplit1 > div.g.g4.u-clear:nth-child(2)
+golem.de###tusplit2 > div.g.g6:last-child > div.career-widget:first-child
+faz.net###TOP > div.Artikel:last-child > div.o-ModuleWrapper.o-ModuleWrapper-is-first.o-ModuleWrapper-has-page-background:nth-child(11)
+articles.mercola.com###page > section.main-content:first-child > div.max-width:last-child > div.top-banner:nth-child(3)
+androidpolice.com###comments
+###disqus_thread
+###disqus_recommendations
 
 ! General Social contents
 /dp-magjam/img/social/evernote-box.
