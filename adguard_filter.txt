@@ -1,3 +1,13 @@
+! Homepage: https://bka.li/
+! Contribute: https://code.bka.li/kromonos/helpfull_files
+! Website: https://code.bka.li/kromonos/helpfull_files
+! Title: BKA.li custom adguard filter
+! Expires: 2 days
+! Report domains not being properly blocked to: support@bka.li
+! (YYYY/MM/DD)
+! Version: 20210628
+!
+
 ! Damn comments
 heise.de###meldung > div.article-layout__content-container:last-child > div.article-layout__content.article-content:first-child > footer.article-layout__footer:last-child > a.comment-button:first-child
 youtube.com###comments
