@@ -5,7 +5,7 @@
 ! Expires: 2 days
 ! Report domains not being properly blocked to: support@bka.li
 ! YYYYMMDDNN
-! Version: 2021062803
+! Version: 2021070601
 !
 
 ! Damn comments
@@ -19,6 +19,7 @@ articles.mercola.com###page > section.main-content:first-child > div.max-width:l
 androidpolice.com###comments
 ###disqus_thread
 ###disqus_recommendations
+theverge.com###content > article.l-segment.l-main-content > div.l-sidebar-fixed.l-segment:last-child > div.l-col__main:first-child
 
 ! General Social contents
 /dp-magjam/img/social/evernote-box.
