@@ -19,6 +19,13 @@ articles.mercola.com###page > section.main-content:first-child > div.max-width:l
 androidpolice.com###comments
 ###disqus_thread
 ###disqus_recommendations
+zdnet.com###postComments
+zdnet.com##div:nth-child(9)
+zdnet.com###main > div.contentWrapper > div.container > div.row > div.row > div.col-12 > div.row > div.row:first-child > div.col-12 > div.row > div.col-4:last-child
+zdnet.com###main > div.contentWrapper > div.container > div.row > div.row > div.col-12 > div.row > div.row:first-child > div.col-12 > div.row > div.col-8:first-child > article:first-child > div.storyBody:nth-child(4) > div.relatedContent.alignRight:nth-child(3)
+zdnet.com###main > div.contentWrapper > div.container > div.row > div.row > div.col-12 > div.row > div.row:first-child > div.col-12 > div.row > div.col-8:first-child > article:first-child > div.storyBody:nth-child(4) > div.relatedContent.alignRight:nth-child(13)
+zdnet.com###main > div.contentWrapper > div.container > div.row > div.row > div.col-12 > div.row > div.row:first-child > div.col-12 > div.row > div.col-8:first-child > article:first-child > div.storyBody:nth-child(4) > div.shortcode.iframe:nth-child(21) > iframe
+zdnet.com##div:nth-child(7) > div.breaking-news-container:first-child
 
 ! General Social contents
 /dp-magjam/img/social/evernote-box.
