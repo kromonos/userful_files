@@ -41,6 +41,9 @@ teleyal.blog#@#.fa-tumblr
 teleyal.blog#@#ins[data-revive-zoneid]
 kromonos.net#@#ins[data-revive-zoneid]
 bka.li#@#ins[data-revive-zoneid]
+teleyal.blog#@#img[width="468"][height="60"]
+kromonos.net#@#img[width="468"][height="60"]
+bka.li#@#img[width="468"][height="60"]
 
 ! General Social contents
 /dp-magjam/img/social/evernote-box.
