@@ -5,7 +5,7 @@
 ! Expires: 2 days
 ! Report domains not being properly blocked to: support@bka.li
 ! YYYYMMDDNN
-! Version: 2021070804
+! Version: 1.0.00.46
 !
 
 ! Damn comments
