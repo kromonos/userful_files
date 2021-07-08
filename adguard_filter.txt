@@ -34,6 +34,18 @@ tilvids.com###content > div.main-row > div.broadcast-message.alert.alert-info.ng
 9to5linux.com###text-10
 9to5linux.com###main > div.bam-related-posts.clearfix:nth-child(2)
 
+! Whitelists
+turn.bka.li#@%#//scriptlet('set-constant', 'Document.prototype.interestCohort', 'undefined')
+@@||rev.fapsi.be^
+@@||cdn.rev.fapsi.be^
+teleyal.blog#@#.fa-tumblr
+teleyal.blog#@#ins[data-revive-zoneid]
+teleyal.blog#@%#//scriptlet('set-constant', 'Document.prototype.interestCohort', 'undefined')
+kromonos.net#@#ins[data-revive-zoneid]
+kromonos.net#@%#//scriptlet('set-constant', 'Document.prototype.interestCohort', 'undefined')
+bka.li#@#ins[data-revive-zoneid]
+kromonos.net#@%#//scriptlet('set-constant', 'Document.prototype.interestCohort', 'undefined')
+
 ! General Social contents
 /dp-magjam/img/social/evernote-box.
 /dp-mature/img/social/evernote.
