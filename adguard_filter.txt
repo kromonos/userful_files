@@ -3,7 +3,8 @@
 ! Contribute: https://code.bka.li/kromonos/helpfull_files
 ! Website: https://code.bka.li/kromonos/helpfull_files
 ! Report domains not being properly blocked to: support@bka.li
-! Version: 1.1.00.03
+! Last Modified: 08-07-2021 10:39 UTC+2
+! Version: 1.1.00.04
 !
 
 ! Damn comments
