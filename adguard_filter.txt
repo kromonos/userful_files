@@ -1,9 +1,8 @@
 ! Title: BKA.li custom adguard filter
 ! Homepage: https://bka.li/
-! Contribute: https://code.bka.li/kromonos/helpfull_files
-! Website: https://code.bka.li/kromonos/helpfull_files
-! Report domains not being properly blocked to: support@bka.li
-! Last Modified: 08-07-2021 10:39 UTC+2
+! Contribute: https://code.bka.li/kromonos/useful_files
+! Please report problems to support@bka.li or https://support.bka.li
+! Last Modified: 08-07-2021 10:41 CEST
 ! Version: 1.1.00.04
 !
 
