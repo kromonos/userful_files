@@ -3,7 +3,7 @@
 ! Contribute: https://code.bka.li/kromonos/helpfull_files
 ! Website: https://code.bka.li/kromonos/helpfull_files
 ! Report domains not being properly blocked to: support@bka.li
-! Version: 1.1.00.02
+! Version: 1.1.00.03
 !
 
 ! Damn comments
@@ -35,6 +35,7 @@ tilvids.com###content > div.main-row > div.broadcast-message.alert.alert-info.ng
 ! Whitelists
 @@||rev.fapsi.be^
 @@||cdn.rev.fapsi.be^
+@@||matomo.bka.li^
 teleyal.blog,uhuc.de,kromonos.net,bka.li#@#.fa-tumblr
 teleyal.blog,uhuc.de,kromonos.net,bka.li#@#ins[data-revive-zoneid]
 teleyal.blog,uhuc.de,kromonos.net,bka.li#@#img[width="468"][height="60"]
