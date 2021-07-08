@@ -27,6 +27,9 @@ zdnet.com###main > div.contentWrapper > div.container > div.row > div.row > div.
 zdnet.com###main > div.contentWrapper > div.container > div.row > div.row > div.col-12 > div.row > div.row:first-child > div.col-12 > div.row > div.col-8:first-child > article:first-child > div.storyBody:nth-child(4) > div.shortcode.iframe:nth-child(21) > iframe
 zdnet.com##div:nth-child(7) > div.breaking-news-container:first-child
 theverge.com###content > article.l-segment.l-main-content > div.l-sidebar-fixed.l-segment:last-child > div.l-col__main:first-child
+technollama.co.uk###comments
+technollama.co.uk###secondary
+tilvids.com###content > div.main-row > div.broadcast-message.alert.alert-info.ng-star-inserted:first-child
 
 ! General Social contents
 /dp-magjam/img/social/evernote-box.
