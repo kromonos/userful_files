@@ -2,9 +2,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/helpfull_files
 ! Website: https://code.bka.li/kromonos/helpfull_files
-! Expires: 2 days
 ! Report domains not being properly blocked to: support@bka.li
-! Version: 1.1.00.01
+! Version: 1.1.00.02
 !
 
 ! Damn comments
@@ -36,9 +35,9 @@ tilvids.com###content > div.main-row > div.broadcast-message.alert.alert-info.ng
 ! Whitelists
 @@||rev.fapsi.be^
 @@||cdn.rev.fapsi.be^
-teleyal.blog,kromonos.net,bka.li#@#.fa-tumblr
-teleyal.blog,kromonos.net,bka.li#@#ins[data-revive-zoneid]
-teleyal.blog,kromonos.net,bka.li#@#img[width="468"][height="60"]
+teleyal.blog,uhuc.de,kromonos.net,bka.li#@#.fa-tumblr
+teleyal.blog,uhuc.de,kromonos.net,bka.li#@#ins[data-revive-zoneid]
+teleyal.blog,uhuc.de,kromonos.net,bka.li#@#img[width="468"][height="60"]
 
 ! General Social contents
 /dp-magjam/img/social/evernote-box.
