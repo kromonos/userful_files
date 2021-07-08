@@ -5,7 +5,7 @@
 ! Expires: 2 days
 ! Report domains not being properly blocked to: support@bka.li
 ! YYYYMMDDNN
-! Version: 2021070801
+! Version: 2021070802
 !
 
 ! Damn comments
@@ -30,6 +30,9 @@ theverge.com###content > article.l-segment.l-main-content > div.l-sidebar-fixed.
 technollama.co.uk###comments
 technollama.co.uk###secondary
 tilvids.com###content > div.main-row > div.broadcast-message.alert.alert-info.ng-star-inserted:first-child
+9to5linux.com###widget_tptn_pop-2
+9to5linux.com###text-10
+9to5linux.com###main > div.bam-related-posts.clearfix:nth-child(2)
 
 ! General Social contents
 /dp-magjam/img/social/evernote-box.
