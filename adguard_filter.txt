@@ -2,8 +2,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 08-07-2021 10:41 CEST
-! Version: 1.1.00.04
+! Last Modified: 09-07-2021 10:41 CEST
+! Version: 1.1.01.01
 !
 
 ! Damn comments
@@ -31,6 +31,9 @@ tilvids.com###content > div.main-row > div.broadcast-message.alert.alert-info.ng
 9to5linux.com###widget_tptn_pop-2
 9to5linux.com###text-10
 9to5linux.com###main > div.bam-related-posts.clearfix:nth-child(2)
+mdr.de###talk_community
+mdr.de###content > div.wrapper > div.sectionWrapper.section1er.cssPageAreaWithContent:last-child > div.sectionWrapperMain:last-child > div.lineWrapper:first-child > div.section.sectionA > div.con.amp-lazyLoad.image24x9.cssBoxTeaserStandard
+mdr.de###content > div.wrapper > div.sectionWrapper.section1er.cssPageAreaWithContent:last-child > div.sectionWrapperMain:last-child > div.lineWrapper:last-child > div.section.sectionA > div.con.amp-lazyLoad.image24x9.cssBoxTeaserStandard
 
 ! Whitelists
 @@||rev.fapsi.be^
