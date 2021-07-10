@@ -3,7 +3,7 @@
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
 ! Last Modified: 10-07-2021 2:07 pm CEST
-! Version: 1.1.02.01
+! Version: 1.1.02.02
 !
 
 ! Damn comments
@@ -13,6 +13,7 @@ heise.de##div.a-layout:nth-child(7)
 heise.de###meldung > div.article-layout__content-container:last-child > section.article-sidebar:last-child > aside.ad-microsites:nth-child(3)
 heise.de###meldung > div.article-layout__content-container:last-child > section.article-sidebar:last-child > a-teaser:nth-child(4)
 heise.de###meldung > div.article-layout__content-container:last-child > section.article-sidebar:last-child > aside.article-newsletter-subscription.article-sidebar__item.article-sidebar__item--margin-top:first-child
+heise.de###meldung > div.article-layout__header-container:first-child > header.a-article-header:first-child > div.a-article-header__service:nth-child(3) > div.a-article-header__service-group:last-child > a.a-article-action:last-child
 heise.de###a-6121 > a-collapse-group:nth-child(2) > nav.top-topics:last-child
 heise.de###a-6121 > a-collapse-group:nth-child(2) > div.header__nav:first-child > nav.navigation:last-child > div.navigation__list.navigation__list--horizontal:last-child
 heise.de###a-5241 > div.notification-links.nav-bottom__notification-links.a-u-grid-pushin-mobile:last-child
