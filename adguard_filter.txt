@@ -2,8 +2,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 10-07-2021 2:07 pm CEST
-! Version: 1.1.02.02
+! Last Modified: 10-07-2021 10:03 pm CEST
+! Version: 1.1.02.03
 !
 
 ! Damn comments
@@ -43,6 +43,11 @@ tilvids.com###content > div.main-row > div.broadcast-message.alert.alert-info.ng
 mdr.de###talk_community
 mdr.de###content > div.wrapper > div.sectionWrapper.section1er.cssPageAreaWithContent:last-child > div.sectionWrapperMain:last-child > div.lineWrapper:first-child > div.section.sectionA > div.con.amp-lazyLoad.image24x9.cssBoxTeaserStandard
 mdr.de###content > div.wrapper > div.sectionWrapper.section1er.cssPageAreaWithContent:last-child > div.sectionWrapperMain:last-child > div.lineWrapper:last-child > div.section.sectionA > div.con.amp-lazyLoad.image24x9.cssBoxTeaserStandard
+tecmint.com###main > div.comments-area:last-child
+tagesschau.de###content > article.container:first-child > div.columns.twelve.copytext-element-wrapper:nth-child(7)
+honeyfeed.fm###wrap-comment-chapter
+honeyfeed.fm###wrap-discord
+honeyfeed.fm###chapter-body > div.mt60.mb45:nth-child(6)
 
 ! Whitelists
 @@||rev.fapsi.be^
