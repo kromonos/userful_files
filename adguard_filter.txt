@@ -2,8 +2,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 14-07-2021 09:52 pm CEST
-! Version: 1.1.02.04
+! Last Modified: 14-07-2021 10:57 pm CEST
+! Version: 1.1.02.05
 !
 
 ! Damn comments
@@ -52,6 +52,15 @@ der-postillon.com###load-disqus
 futurezone.at###coral_thread_iframe
 futurezone.at##main.siteMain.container:nth-child(4) > article.article.article--fz_artikel > section.comments:nth-child(7) > h3.comments-title:first-child
 futurezone.at##main.siteMain.container:nth-child(4) > article.article.article--fz_artikel > aside.article-sidebar:nth-child(4)
+fm4.orf.at###main > ul.relatedList.row:nth-child(5)
+fm4.orf.at###promogrid > div.bx-wrapper > div.bx-viewport:first-child
+fm4.orf.at###main > ul.relatedList.row:last-child
+fm4.orf.at###main > div.relatedList.flag:nth-child(4)
+fm4.orf.at###main > div.relatedList.flag:nth-child(7)
+fm4.orf.at###mainNav > ul.flex:last-child > li.icon.whatsapp:nth-child(4)
+fm4.orf.at###mainNav > ul.flex:last-child > li.icon.twitter:nth-child(3)
+fm4.orf.at###mainNav > ul.flex:last-child > li.icon.instagram:nth-child(2)
+fm4.orf.at###mainNav > ul.flex:last-child > li.icon.facebook:first-child
 
 ! Whitelists
 @@||rev.fapsi.be^
