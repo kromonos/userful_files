@@ -48,6 +48,10 @@ tagesschau.de###content > article.container:first-child > div.columns.twelve.cop
 honeyfeed.fm###wrap-comment-chapter
 honeyfeed.fm###wrap-discord
 honeyfeed.fm###chapter-body > div.mt60.mb45:nth-child(6)
+der-postillon.com###load-disqus
+futurezone.at###coral_thread_iframe
+futurezone.at##main.siteMain.container:nth-child(4) > article.article.article--fz_artikel > section.comments:nth-child(7) > h3.comments-title:first-child
+futurezone.at##main.siteMain.container:nth-child(4) > article.article.article--fz_artikel > aside.article-sidebar:nth-child(4)
 
 ! Whitelists
 @@||rev.fapsi.be^
