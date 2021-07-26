@@ -2,8 +2,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 16-07-2021 11:45 pm CEST
-! Version: 1.1.03.01
+! Last Modified: 26-07-2021 2:54 pm CEST
+! Version: 1.1.03.02
 !
 
 ! Damn comments
@@ -65,6 +65,7 @@ bleepingcomputer.com##div.bc_wrapper:first-child > section.bc_main_content:nth-c
 bleepingcomputer.com###comments
 bleepingcomputer.com###comment_form
 bleepingcomputer.com##div.bc_wrapper:first-child > section.bc_main_content:nth-child(4) > div.container > div.row > div.col-md-8:first-child > div.cz-main-left-section > div.article_section:first-child > div.cz-news-story-title-section:nth-child(2) > div.cz-news-title-right-area:last-child > ul > li.cz-news-comment:last-child
+itsfoss.com###thrive-comments > div.thrive-comments-content:last-child
 
 ! Whitelists
 @@||rev.fapsi.be^
