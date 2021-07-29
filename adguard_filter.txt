@@ -2,8 +2,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 16-07-2021 11:45 pm CEST
-! Version: 1.1.03.01
+! Last Modified: 26-07-2021 2:54 pm CEST
+! Version: 1.1.03.02
 !
 
 ! Damn comments
@@ -69,6 +69,7 @@ twitch.tv###root > div.sc-AxjAm.kZPAIb > div.sc-AxjAm.tlQbp:nth-child(2) > nav.I
 arstechnica.com##.pullbox, .sidebar, .story-sidebar, .right
 arstechnica.com###article-footer-wrap
 arstechnica.com###social-footer
+itsfoss.com###thrive-comments > div.thrive-comments-content:last-child
 
 ! Whitelists
 @@||rev.fapsi.be^
