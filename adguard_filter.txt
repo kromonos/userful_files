@@ -65,6 +65,10 @@ bleepingcomputer.com##div.bc_wrapper:first-child > section.bc_main_content:nth-c
 bleepingcomputer.com###comments
 bleepingcomputer.com###comment_form
 bleepingcomputer.com##div.bc_wrapper:first-child > section.bc_main_content:nth-child(4) > div.container > div.row > div.col-md-8:first-child > div.cz-main-left-section > div.article_section:first-child > div.cz-news-story-title-section:nth-child(2) > div.cz-news-title-right-area:last-child > ul > li.cz-news-comment:last-child
+twitch.tv###root > div.sc-AxjAm.kZPAIb > div.sc-AxjAm.tlQbp:nth-child(2) > nav.InjectLayout-sc-588ddc-0.lkYZxg.top-nav:nth-child(2) > div.sc-AxjAm.cPVNOL.top-nav__menu > div.sc-AxjAm.heIqmc:last-child > div.sc-AxjAm.iJZwey.top-nav__prime:nth-child(2) > div.sc-AxjAm.hBZJQK.prime-offers
+arstechnica.com##.pullbox, .sidebar, .story-sidebar, .right
+arstechnica.com###article-footer-wrap
+arstechnica.com###social-footer
 
 ! Whitelists
 @@||rev.fapsi.be^
