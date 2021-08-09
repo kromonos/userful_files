@@ -2,8 +2,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 09-08-2021 9:30 pm CEST
-! Version: 1.1.04.02
+! Last Modified: 09-08-2021 11:28 pm CEST
+! Version: 1.1.04.03
 !
 
 ! Damn comments
@@ -76,6 +76,12 @@ arstechnica.com###social-footer
 itsfoss.com###thrive-comments > div.thrive-comments-content:last-child
 netzpolitik.org###comments
 zeit.de###comments
+pcgamer.com###main > article.news-article:nth-child(4) > section.content-wrapper:nth-child(2) > div.read-more-container:nth-child(5)
+pcgamer.com###main > article.news-article:nth-child(4) > section.content-wrapper:nth-child(2) > div.jump-to-comments:nth-child(6)
+pcgamer.com###expanding-articles > div
+pcgamer.com###main > article.news-article:nth-child(4) > div.related-articles-block:nth-child(10)
+pcgamer.com###article-body > div.fancy-box:nth-child(16)
+pcgamer.com###sidebar
 
 ! Whitelists
 @@||rev.fapsi.be^
