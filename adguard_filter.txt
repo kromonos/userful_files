@@ -2,8 +2,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 09-08-2021 11:28 pm CEST
-! Version: 1.1.04.04
+! Last Modified: 17-08-2021 9:15 pm CEST
+! Version: 1.1.05
 !
 
 ! Damn comments
@@ -82,6 +82,16 @@ pcgamer.com###expanding-articles > div
 pcgamer.com###main > article.news-article:nth-child(4) > div.related-articles-block:nth-child(10)
 pcgamer.com###article-body > div.fancy-box:nth-child(16)
 pcgamer.com###sidebar
+telekom.com###cm-comments-1-a0yxkltykakgk7zl1z53xo459 > div.accordion.id28.collection.comments > div.element.element-open
+telekom.com##main.site-main:nth-child(2) > div.container:nth-child(3) > div.row > div.col-md-4:last-child
+telekom.com##main.site-main:nth-child(2) > div.cm-fragment:last-child > div.collection.comments
+golem.de###screen > div.g.g6:nth-child(2) > article:first-child > div.topictags:last-child
+golem.de###tusplit1 > div.g.g6.promos:first-child
+golem.de###tusplit2 > div.g.g6:nth-child(2) > div.teaser-widget:first-child
+golem.de###tusplit2 > div.g.g6:nth-child(2)
+golem.de###csi_art1
+golem.de###iqadtile9
+golem.de###tusplit2 > div.g.g6:first-child
 
 ! Whitelists
 @@||rev.fapsi.be^
