@@ -2,8 +2,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 17-08-2021 9:15 pm CEST
-! Version: 1.1.05
+! Last Modified: 18-08-2021 4:38 pm CEST
+! Version: 1.1.06
 !
 
 ! Damn comments
@@ -92,6 +92,9 @@ golem.de###tusplit2 > div.g.g6:nth-child(2)
 golem.de###csi_art1
 golem.de###iqadtile9
 golem.de###tusplit2 > div.g.g6:first-child
+theregister.com###article_body_btm
+theregister.com###aua
+theregister.com###body > ul.listinks:nth-child(12)
 
 ! Whitelists
 @@||rev.fapsi.be^
