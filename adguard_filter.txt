@@ -92,16 +92,12 @@ golem.de###tusplit2 > div.g.g6:nth-child(2)
 golem.de###csi_art1
 golem.de###iqadtile9
 golem.de###tusplit2 > div.g.g6:first-child
-<<<<<<< HEAD
 rbb24.de###col1 > article.layoutarticlemodule > div.commentarea:last-child
-
-=======
 theregister.com###article_body_btm
 theregister.com###aua
 theregister.com###body > ul.listinks:nth-child(12)
 dhl.de##div.main.homepage:nth-child(5) > div.dhl.redesign.stage.isHomepage:first-child > div.container:last-child > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.owl-carousel.owl-loaded:first-child > div.owl-stage-outer:first-child > div.owl-stage
 tagesschau.de###content > div.user-kommentar-block.columns.twelve:last-child
->>>>>>> 472d45fd645dae34a780ed902b8dfd289443570c
 
 ! Whitelists
 @@||rev.fapsi.be^
