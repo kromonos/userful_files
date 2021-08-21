@@ -92,6 +92,8 @@ golem.de###tusplit2 > div.g.g6:nth-child(2)
 golem.de###csi_art1
 golem.de###iqadtile9
 golem.de###tusplit2 > div.g.g6:first-child
+rbb24.de###col1 > article.layoutarticlemodule > div.commentarea:last-child
+
 
 ! Whitelists
 @@||rev.fapsi.be^
