@@ -2,8 +2,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 06-09-2021 7:55 pm CEST
-! Version: 1.1.07.01
+! Last Modified: 14-09-2021 1:02 pm CEST
+! Version: 1.1.08.01
 !
 
 ! Damn comments
@@ -102,6 +102,10 @@ www1.wdr.de###content > div.wrapper.equalHeight > div.section.sectionZ.sectionAr
 www1.wdr.de###content > div.wrapper.equalHeight > div.section.sectionZ.sectionArticle:nth-child(5) > article > div.con:first-child > div.modCon > div.mod.modA.modParagraph > div.boxCon > div.box > div.dialogBox:last-child
 redcoolmedia.net###adxx
 redcoolmedia.net###adxr
+mathiasbynens.be###comments
+mathiasbynens.be###content > article:last-child > section:last-child
+changelog.complete.org###comments
+changelog.complete.org###recent-comments-2
 
 ! Whitelists
 @@||rev.fapsi.be^
