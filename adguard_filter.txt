@@ -2,8 +2,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 14-09-2021 1:02 pm CEST
-! Version: 1.1.08.01
+! Last Modified: 17-09-2021 9:07 pm CEST
+! Version: 1.1.09.01
 !
 
 ! Damn comments
@@ -106,6 +106,15 @@ mathiasbynens.be###comments
 mathiasbynens.be###content > article:last-child > section:last-child
 changelog.complete.org###comments
 changelog.complete.org###recent-comments-2
+vice.com###__next > div.container > main.main-content:nth-child(4) > div:first-child > div.observer > div.observer__content:first-child > div.short-form > div.short-form__body:last-child > div.short-form__body__article-body:first-child > div.article__body-components:nth-child(2) > div.abc__article_embed:nth-child(6)
+vice.com###__next > div.container > main.main-content:nth-child(4) > div:first-child > div.observer > div.observer__content:first-child > div.short-form > div.short-form__body:last-child > div.short-form__body__article-body:first-child > div.article__body-components:nth-child(2) > div.abc__article_embed:nth-child(13)
+vice.com###__next > div.container > main.main-content:nth-child(4) > div:first-child > div.observer > div.observer__content:first-child > div.short-form > div.short-form__body:last-child > div.short-form__body__article-body:first-child > div.article__body-components:nth-child(2) > div.abc__article_embed:nth-child(23)
+vice.com###__next > div.container > main.main-content:nth-child(4) > div.recirc-footer:nth-child(2)
+vice.com###iba_4av9vb > span > div:first-child > div.observer > div.observer__content:first-child > div.article > div.article__longform__content:last-child > div.article__body-components.article__body-components--longform:first-child > div.long-form__body-group:first-child > div.abc__article_embed:nth-child(4)
+vice.com###iba_4av9vb > span > div:first-child > div.observer > div.observer__content:first-child > div.article > div.article__longform__content:last-child > div.article__body-components.article__body-components--longform:first-child > div.long-form__body-group:nth-child(5) > div.abc__article_embed:nth-child(2)
+vice.com###iba_4av9vb > span > div:first-child > div.observer > div.observer__content:first-child > div.article > div.article__longform__content:last-child > div.article__body-components.article__body-components--longform:first-child > div.long-form__body-group:nth-child(7) > div.abc__article_embed:nth-child(4)
+vice.com###iba_4av9vb > span > div:first-child > div.observer > div.observer__content:first-child > div.article > div.article__longform__content:last-child > div.article__body-components.article__body-components--longform:first-child > div.long-form__body-group:nth-child(11) > div.abc__article_embed:nth-child(4)
+vice.com###__next > div.container > main.main-content:nth-child(4) > div:first-child > div.observer > div.observer__content:first-child > div.short-form > div.short-form__body:last-child > div.short-form__body__right-rail:last-child
 
 ! Whitelists
 @@||rev.fapsi.be^
