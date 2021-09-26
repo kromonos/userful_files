@@ -115,6 +115,27 @@ vice.com###iba_4av9vb > span > div:first-child > div.observer > div.observer__co
 vice.com###iba_4av9vb > span > div:first-child > div.observer > div.observer__content:first-child > div.article > div.article__longform__content:last-child > div.article__body-components.article__body-components--longform:first-child > div.long-form__body-group:nth-child(7) > div.abc__article_embed:nth-child(4)
 vice.com###iba_4av9vb > span > div:first-child > div.observer > div.observer__content:first-child > div.article > div.article__longform__content:last-child > div.article__body-components.article__body-components--longform:first-child > div.long-form__body-group:nth-child(11) > div.abc__article_embed:nth-child(4)
 vice.com###__next > div.container > main.main-content:nth-child(4) > div:first-child > div.observer > div.observer__content:first-child > div.short-form > div.short-form__body:last-child > div.short-form__body__right-rail:last-child
+borncity.com###comments
+linuxnightly.com###comments
+pimylifeup.com###comments
+pimylifeup.com###post-33461405 > div.entry-content:last-child > div.lbb-related-posts.d-flex.flex-wrap.mt-5:last-child
+pimylifeup.com###email_signup
+pimylifeup.com###sidebar
+steadyhq.com###main_content > div.main_content__inner > div.post__wrapper > div.post.test-post_show_page > div.comments_notice:nth-child(4)
+steadyhq.com###main_content > div.main_content__inner > div.post__wrapper > div.post.test-post_show_page > div.comments_cta:last-child
+winfuture.de###centerWrap > div.primary_content > div.content_wrap:nth-child(3)
+winfuture.de###rightWrap > div.rightBx.generic_box:nth-child(8)
+winfuture.de###rightWrap > div.rightBx.generic_box.with_download_arrow:nth-child(3)
+winfuture.de###rightWrap > div.rightBx:nth-child(4)
+winfuture.de###rightWrap > div.rightBx:nth-child(5)
+winfuture.de###rightWrap > div.rightBx.right_orangeBx:nth-child(6)
+winfuture.de###rightWrap > div.rightBx:nth-child(7)
+winfuture.de###rightWrap > div.rightBx:nth-child(10)
+winfuture.de###testberichte_teaser_admin_template
+winfuture.de###rightWrap > div.rightBx.right_greenBx:nth-child(12)
+winfuture.de###rightWrap > div.rightBx:nth-child(13)
+winfuture.de###rightWrap > div.rightBx.right_greenBx:nth-child(14)
+winfuture.de###centerWrap > div.primary_content > div.content_wrap:first-child > div.mt20:nth-child(4)
 
 ! Whitelists
 @@||rev.fapsi.be^
