@@ -136,6 +136,10 @@ winfuture.de###rightWrap > div.rightBx.right_greenBx:nth-child(12)
 winfuture.de###rightWrap > div.rightBx:nth-child(13)
 winfuture.de###rightWrap > div.rightBx.right_greenBx:nth-child(14)
 winfuture.de###centerWrap > div.primary_content > div.content_wrap:first-child > div.mt20:nth-child(4)
+einplatinencomputer.com###post-3446 > div.entry-content:nth-child(3) > div.aawp:nth-child(6) > div.aawp-grid.aawp-grid--col-3
+einplatinencomputer.com###vce_posts_widget-7
+taz.de###pages > div.full.community.page.last.odd.n3:nth-child(5) > span.body:nth-child(2)
+taz.de###pages > div.full.news.report.article.page.first.odd.first_page.n1:nth-child(2) > span.tail:nth-child(3)
 
 ! Whitelists
 @@||rev.fapsi.be^
