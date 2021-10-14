@@ -1,6 +1,6 @@
 #/etc/spamassassin/20_toxic_artists.cf
 
-header TOXIC_ARTIST From =~ /(frenoneart|redkoi89|slauka|naarielart|sylessae|midorisa|level20Artist|AskMischi|viimorte|nalou_arts|indicreates|arhieeart|themorrigansart|LagerdahlPhoto|cabslogyt|ophelianoir|hiduranpdm|cince\.arts|offbeatworlds|artmmkay|celestialcommission|GianaraArt|thisisradinsky|karinkabogucka|jeleynai|eso\-rollenspiel\.de|mastodonten\.de|mastodon\.art|e_maria|joan\.culum|magicalscopeart|onyrica|pastoutlander|othalam|indicreatesbusiness|june\.jenssen|angelis|solinii|delsdoodlesart|mastoart|delsdoodles|vajgand|dona\@duck\.com|ottiliathouvenin|rachelmcewanart|affertonart|gracezhuart|ariannaclimaci)/im
+header TOXIC_ARTIST From =~ /(frenoneart|redkoi89|slauka|naarielart|sylessae|midorisa|level20Artist|AskMischi|viimorte|nalou_arts?|indicreates|arhieeart|themorrigansart|LagerdahlPhoto|cabslogyt|ophelianoir|hiduranpdm|cince\.arts|offbeatworlds|artmmkay|celestialcommission|GianaraArt|thisisradinsky|karinkabogucka|jeleynai|eso\-rollenspiel\.de|mastodonten\.de|mastodon\.art|e_maria|joan\.culum|magicalscopeart|onyrica|pastoutlander|othalam|indicreatesbusiness|june\.jenssen|angelis|solinii|delsdoodlesart|mastoart|delsdoodles|vajgand|dona\@duck\.com|ottiliathouvenin|rachelmcewanart|affertonart|gracezhuart|ariannaclimaci)/im
 score TOXIC_ARTIST 100.0
 describe TOXIC_ARTIST Toxic artists. Better not to communicate with them. ("To protect your users!")
 
