@@ -2,8 +2,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 05-10-2021 11:59 am CEST
-! Version: 1.1.12.01
+! Last Modified: 14-10-2021 5:37 pm CEST
+! Version: 1.1.13.01
 !
 
 ! Damn comments
@@ -151,6 +151,16 @@ stadt-bremerhaven.de###page > div.container > div.main > div.main-inner.group > 
 stadt-bremerhaven.de###page > div.container > div.main > div.main-inner.group > div.content:first-child > div.pad.group:last-child > ul.post-nav.group:nth-child(4)
 stadt-bremerhaven.de###page > div.container > div.main > div.main-inner.group > div.content:first-child > div.pad.group:last-child > h4.recent-posts__heading:nth-child(5)
 stadt-bremerhaven.de###page > div.container > div.main > div.main-inner.group > div.content:first-child > div.pad.group:last-child > ul.recent-posts:nth-child(6)
+vk.com###feed_recommends > div.feed_asc_users_block.center.feed_asc_block.page_block._block
+vivaldi.com###after-article > div.section.blogwidth.nopadding:first-child > div.row > div
+howtogeek.com###post-760425 > div.entry-content.e-content:first-child > div.relatedside:nth-child(8)
+howtogeek.com###post-760425 > div.entry-content.e-content:first-child > div.relatedside:nth-child(23)
+torrentfreak.com###tf-comments
+torrentfreak.com##div.page:first-child > div.page__top:first-child > main:last-child > div.container.container--main.grid:last-child > section.col-8_md-12.page__content:first-child > aside.page__widget:nth-child(4)
+torrentfreak.com##div.page:first-child > div.page__top:first-child > main:last-child > div.container.container--main.grid:last-child > section.col-4_md-12.page__sidebar:last-child
+haydenjames.io###hayden-1342958460 > a > img
+haydenjames.io###connect
+haydenjames.io###hayden-1559222551 > a > img
 
 ! Whitelists
 @@||rev.fapsi.be^
