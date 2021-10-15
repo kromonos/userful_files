@@ -2,8 +2,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 14-10-2021 5:37 pm CEST
-! Version: 1.1.13.01
+! Last Modified: 15-10-2021 5:37 pm CEST
+! Version: 1.1.14.01
 !
 
 ! Damn comments
@@ -161,6 +161,20 @@ torrentfreak.com##div.page:first-child > div.page__top:first-child > main:last-c
 haydenjames.io###hayden-1342958460 > a > img
 haydenjames.io###connect
 haydenjames.io###hayden-1559222551 > a > img
+debugpoint.com###boombox_comments
+###wpd-bubble-wrapper
+debugpoint.com###post-8258 > div.single-main-container:last-child > div.bb-row > div.bb-col.col-content:first-child > div.bb-row > div.bb-col.col-site-main > div.site-main > aside.bb-other-posts.bb-posts-related.bb-post-collection.hfeed.mb-xs.bb-mb-el.post-grid.bb-thumbnail-stretched.col-3:nth-child(5)
+debugpoint.com###post-8258 > div.single-main-container:last-child > div.bb-row > div.bb-col.col-content:first-child > div.bb-row > div.bb-col.col-site-main > div.site-main > aside.bb-other-posts.bb-posts-more-from.bb-post-collection.hfeed.mb-lg.bb-mb-el.post-list.list.big-item.bb-thumbnail-stretched:nth-child(6)
+debugpoint.com###post-8258 > div.single-main-container:last-child > div.bb-row > div.bb-col.col-content:first-child > div.bb-row > div.bb-col.col-site-main > div.site-main > aside.bb-other-posts.bb-posts-dont-miss.bb-post-collection.hfeed.mb-xs.bb-mb-el.post-grid.bb-thumbnail-stretched.col-3:last-child
+debugpoint.com###footer > div.footer-top:first-child
+debugpoint.com###post-8258 > div.single-main-container:last-child > div.bb-row > div.bb-col.col-content:first-child > div.bb-row > div.bb-col.col-site-main > div.site-main > div.s-post-main.mb-md.bb-mb-el.bb-card-item:first-child > div.s-post-content.s-post-small-el.bb-mb-el:nth-child(3) > a:nth-child(39)
+debugpoint.com###post-8258 > div.single-main-container:last-child > div.bb-row > div.bb-col.col-content:first-child > div.bb-row > div.bb-col.col-site-main > div.site-main > div.s-post-main.mb-md.bb-mb-el.bb-card-item:first-child > nav.bb-next-prev-pagination.s-post-next-prev-pg.mb-md.bb-mb-el.pg-lg:nth-child(4)
+debugpoint.com###post-8258 > div.single-main-container:last-child > div.bb-row > div.bb-col.col-content:first-child > div.bb-row > div.bb-col.col-site-main > div.site-main > div.s-post-main.mb-md.bb-mb-el.bb-card-item:first-child > div.bb-post-share-box.s-post-share-box.bottom.mb-md.bb-mb-el:last-child
+debugpoint.com###post-8258 > div.single-main-container:last-child > div.bb-row > div.bb-col.col-content:first-child > div.bb-row > div.bb-col.col-site-main > div.site-main > div.s-post-main.mb-md.bb-mb-el.bb-card-item:first-child > div.s-post-content.s-post-small-el.bb-mb-el:nth-child(3) > h4.section-head:nth-child(45) > span.title
+debugpoint.com###post-8258 > div.single-main-container:last-child > div.bb-row > div.bb-col.col-content:first-child > div.bb-row > div.bb-col.col-site-main > div.site-main > div.s-post-main.mb-md.bb-mb-el.bb-card-item:first-child > div.s-post-content.s-post-small-el.bb-mb-el:nth-child(3) > p:nth-child(38)
+debugpoint.com###post-8258 > div.single-main-container:last-child > div.bb-row > div.bb-col.col-content:first-child > div.bb-row > div.bb-col.col-site-main > div.site-main > div.s-post-main.mb-md.bb-mb-el.bb-card-item:first-child > div.bb-tags.mb-md.bb-mb-el:nth-child(6)
+debugpoint.com###post-8258 > div.single-main-container:last-child > div.bb-row > div.bb-col.col-content:first-child > div.bb-row > div.bb-col.col-site-main > div.site-main > div.s-post-main.mb-md.bb-mb-el.bb-card-item:first-child > div.s-post-meta-block.bb-mb-el:nth-child(2) > div.post-meta-content.row > div.d-table-center-sm > div.col-r.d-table-cell.col-md-6.col-sm-6.text-right-sm:last-child > div.s-post-meta.bb-post-meta.size-lg > a.post-meta-item.post-comments
+debugpoint.com###post-8258 > div.single-main-container:last-child > div.bb-row > div.bb-col.col-sidebar:last-child
 
 ! Whitelists
 @@||rev.fapsi.be^
