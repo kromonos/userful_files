@@ -175,6 +175,10 @@ debugpoint.com###post-8258 > div.single-main-container:last-child > div.bb-row >
 debugpoint.com###post-8258 > div.single-main-container:last-child > div.bb-row > div.bb-col.col-content:first-child > div.bb-row > div.bb-col.col-site-main > div.site-main > div.s-post-main.mb-md.bb-mb-el.bb-card-item:first-child > div.bb-tags.mb-md.bb-mb-el:nth-child(6)
 debugpoint.com###post-8258 > div.single-main-container:last-child > div.bb-row > div.bb-col.col-content:first-child > div.bb-row > div.bb-col.col-site-main > div.site-main > div.s-post-main.mb-md.bb-mb-el.bb-card-item:first-child > div.s-post-meta-block.bb-mb-el:nth-child(2) > div.post-meta-content.row > div.d-table-center-sm > div.col-r.d-table-cell.col-md-6.col-sm-6.text-right-sm:last-child > div.s-post-meta.bb-post-meta.size-lg > a.post-meta-item.post-comments
 debugpoint.com###post-8258 > div.single-main-container:last-child > div.bb-row > div.bb-col.col-sidebar:last-child
+derstandard.at###story-community > div.story-community-inner
+derstandard.at##main:nth-child(9) > div.layout > section.story-recommended.js-story-recommended:nth-child(3) > div:last-child
+derstandard.at##main:nth-child(9) > div.layout > section.story-recommended.js-story-recommended:nth-child(3) > h1:first-child
+derstandard.at##main:nth-child(9) > div.layout > div.story.js-story:nth-child(2) > article.story-article:last-child > nav.story-tool.js-article-tool:last-child
 
 ! Whitelists
 @@||rev.fapsi.be^
