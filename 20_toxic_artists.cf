@@ -10,7 +10,7 @@ describe STUPID_ADMINS You definitely don't want any mails from wannabe administ
 
 header BULLY_SUPPORTER From =~ /@(bethesda|zenimax|twitter)/i
 score BULLY_SUPPORTER 1.0
-describe BULLY_SUPPORTER Supporting bullying
+describe BULLY_SUPPORTER Protecting known bullies by doing nothing.
 
 header TOXIC_PROVIDER From =~ /@(gmail|live|outlook|google|googlemail)\.com/i
 score TOXIC_PROVIDER 0.5
