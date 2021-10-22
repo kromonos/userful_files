@@ -1,12 +1,16 @@
 #/etc/spamassassin/20_toxic_artists.cf
 
-header TOXIC_ARTIST From =~ /(frenoneart|redkoi89|slauka|naarielart|sylessae|midorisa|level20Artist|AskMischi|viimorte|nalou_arts?|indicreates|arhieeart|themorrigansart|LagerdahlPhoto|cabslogyt|ophelianoir|hiduranpdm|cince\.arts|offbeatworlds|artmmkay|celestialcommission|GianaraArt|thisisradinsky|karinkabogucka|jeleynai|eso\-rollenspiel\.de|mastodonten\.de|mastodon\.art|e_maria|joan\.culum|magicalscopeart|onyrica|pastoutlander|othalam|indicreatesbusiness|june\.jenssen|angelis|solinii|delsdoodlesart|mastoart|delsdoodles|vajgand|dona\@duck\.com|ottiliathouvenin|rachelmcewanart|affertonart|gracezhuart|ariannaclimaci|peshiko\.art)/im
+header TOXIC_ARTIST From =~ /(frenoneart|redkoi89|slauka|naarielart|sylessae|midorisa|level20Artist|AskMischi|viimorte|nalou_arts?|indii?creates|arhiee(art)?|themorrigans(art)?|LagerdahlPhoto|cabslogyt|ophelianoir|hiduranpdm|cince\.arts|offbeatworlds|artmmkay|celestialcommission|GianaraArt|thisisradinsky|karinkabogucka|jeleynai|e_maria|joan\.culum|magicalscopeart|onyrica|pastoutlander|othalam|indicreatesbusiness|june\.jenssen|angelis|solinii|delsdoodlesart|mastoart|delsdoodles|vajgand|dona@duck\.com|ottiliathouvenin|rachelmcewan(art)?|afferton(art)?|gracezhu(art)?|ariannaclimaci|peshiko(\.art)?)/i
 score TOXIC_ARTIST 100.0
 describe TOXIC_ARTIST Toxic artists. Better not to communicate with them. ("To protect your users!")
 
-header STUPID_ADMINS From =~ /(hackers\.town|wxcafe\.net|weirder\.earth|tenforward\.social|fuk\.re|rage\.love)/im
+header STUPID_ADMINS From =~ /(hackers\.town|wxcafe\.net|weirder\.earth|tenforward\.social|fuk\.re|rage\.love|eso\-rollenspiel\.de|mastodonten\.de|mastodon\.art|onyrica\.art|sylessae\.art)/i
 score STUPID_ADMINS 100.0
 describe STUPID_ADMINS You definitely don't want any mails from wannabe administrators with zero knowledge!
+
+header BULLY_SUPPORTER From =~ /@(bethesda|zenimax|twitter)/i
+score BULLY_SUPPORTER 1.0
+describe BULLY_SUPPORTER Supporting bullying
 
 header TOXIC_PROVIDER From =~ /@(gmail|live|outlook|google|googlemail)\.com/i
 score TOXIC_PROVIDER 0.5
