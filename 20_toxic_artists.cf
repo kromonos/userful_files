@@ -1,4 +1,8 @@
-#/etc/spamassassin/20_toxic_artists.cf
+# /etc/spamassassin/20_toxic_artists.cf
+#
+# Homepage: https://bka.li/
+# Contribute: https://code.bka.li/kromonos/useful_files
+# Please report problems to support@bka.li or https://support.bka.li
 
 header TOXIC_ARTIST From =~ /(frenoneart|redkoi89|slauka|naarielart|sylessae|midorisa|level20Artist|AskMischi|viimorte|nalou_arts?|indii?creates|arhiee(art)?|themorrigans(art)?|LagerdahlPhoto|cabslogyt|ophelianoir|hiduranpdm|cince\.arts|offbeatworlds|artmmkay|celestialcommission|GianaraArt|thisisradinsky|karinkabogucka|jeleynai|e_maria|joan\.culum|magicalscopeart|onyrica|pastoutlander|othalam|indicreatesbusiness|june\.jenssen|angelis|solinii|delsdoodlesart|mastoart|delsdoodles|vajgand|dona@duck\.com|ottiliathouvenin|rachelmcewan(art)?|afferton(art)?|gracezhu(art)?|ariannaclimaci|peshiko(\.art)?)/i
 score TOXIC_ARTIST 100.0
@@ -10,7 +14,7 @@ describe STUPID_ADMINS You definitely don't want any mails from wannabe administ
 
 header BULLY_SUPPORTER From =~ /@(bethesda|zenimax|twitter)/i
 score BULLY_SUPPORTER 1.0
-describe BULLY_SUPPORTER Protecting known bullies by doing nothing.
+describe BULLY_SUPPORTER Protecting known bullies by doing nothing against hate-speech, blackmailing, badmouthing or even doxxing.
 
 header TOXIC_PROVIDER From =~ /@(gmail|live|outlook|google|googlemail)\.com/i
 score TOXIC_PROVIDER 0.5
