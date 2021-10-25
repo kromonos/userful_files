@@ -4,7 +4,7 @@
 # Contribute: https://code.bka.li/kromonos/useful_files
 # Please report problems to support@bka.li or https://support.bka.li
 
-header TOXIC_ARTIST From =~ /(frenoneart|redkoi89|slauka|naarielart|sylessae|midorisa|level20Artist|AskMischi|viimorte|nalou_arts?|indii?creates|arhiee(art)?|themorrigans(art)?|LagerdahlPhoto|cabslogyt|ophelianoir|hiduranpdm|cince\.arts|offbeatworlds|artmmkay|celestialcommission|GianaraArt|thisisradinsky|karinkabogucka|jeleynai|e_maria|joan\.culum|magicalscopeart|onyrica|pastoutlander|othalam|indicreatesbusiness|june\.jenssen|angelis|solinii|delsdoodlesart|mastoart|delsdoodles|vajgand|dona@duck\.com|ottiliathouvenin|rachelmcewan(art)?|afferton(art)?|gracezhu(art)?|ariannaclimaci|peshiko(\.art)?)/i
+header TOXIC_ARTIST From =~ /(frenoneart|redkoi89|slauka|naarielart|sylessae|midorisa|level20Artist|AskMischi|viimorte|nalou_arts?|indii?creates|arhiee(art)?|themorrigans(art)?|LagerdahlPhoto|cabslogyt|ophelianoir|hiduranpdm|cince\.arts|offbeatworlds|artmmkay|celestialcommission|GianaraArt|thisisradinsky|karinkabogucka|jeleynai|e_maria|joan\.culum|magicalscopeart|onyrica|pastoutlander|othalam|indicreatesbusiness|june\.jenssen|angelis|solinii|delsdoodlesart|mastoart|delsdoodles|vajgand|dona@duck\.com|ottiliathouvenin|rachelmcewan(art)?|afferton(art)?|gracezhu(art)?|ariannaclimaci|peshiko(\.art)?|galder(s)?(\art)?|tindomiel)/i
 score TOXIC_ARTIST 100.0
 describe TOXIC_ARTIST Toxic artists. Better not to communicate with them. ("To protect your users!")
 
