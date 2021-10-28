@@ -1,7 +1,7 @@
 # /etc/spamassassin/20_toxic_artists.cf
 #
 # Homepage: https://bka.li/
-# Contribute: https://code.bka.li/kromonos/useful_files
+# Contribute: https://code.bka.li/BKA.li/useful_files
 # Please report problems to support@bka.li or https://support.bka.li
 #
 # Important: Most settings classifies everything with a score of 5 or more as spam!
