@@ -8,7 +8,7 @@
 #
 # Last update: 28.10.2021 15:09am
 
-header TOXIC_ARTIST From =~ /(frenoneart|redkoi89|slauka|naarielart|EvieeChan|Arysae|sylessae|Lacrima(Art)?|DeaLun(Art)?|wnike(artist)?|GisellePaints|Nozomi((_)?Mats)?|RosenniaArts|(The)?Mandii|Basilisk(_Art)?|CylHighblossom|CelestialFang|lizbeth(490021)?|OffbeatWorlds|wildcharge(art)?|ammatice|waschbaerella|Radinsky|Yorugami|midorisa|level20Artist|AskMischi|viimorte|nalou_arts?|indii?creates|arhiee(art)?|themorrigans(art)?|LagerdahlPhoto|cabslogyt|ophelianoir|hiduranpdm|cince\.arts|offbeatworlds|artmmkay|celestialcommission|GianaraArt|thisisradinsky|karinkabogucka|jeleynai|e_maria|joan\.culum|magicalscopeart|onyrica|pastoutlander|othalam|indicreatesbusiness|june\.jenssen|angelis|solinii|delsdoodlesart|mastoart|delsdoodles|vajgand|dona@duck\.com|ottiliathouvenin|rachelmcewan(art)?|afferton(art)?|gracezhu(art)?|ariannaclimaci|Trooberger|ThisIsTroo|HeyItsAraas|peshiko(\.art)?|galders?(\-|\ |_|)?(art)?|tindomiel|LenoreLandry|(Tin)?Silverthorn|surenlicious(art)?|Lenamo(\.)?art)/i
+header TOXIC_ARTIST From =~ /(AWP(_|\-)Art|ArtisticWolf(Prints)?|Chemikalienn|PastelLattee|KayWren(Paint)?|(Artof)?Yorugami|Skaav(Art)?|Tales(\ )of(\ )the(\ )Knights?|xPusteblume|Rina88aciR|ChessyBorder|jermtorries(art)?|ChloeCarter(Arts?)?|pp?aa?udraws?|SemmyJ(art)?|Faebelina|frenoneart|redkoi89|slauka|naarielart|EvieeChan|Arysae|sylessae|Lacrima(Art)?|DeaLun(Art)?|wnike(artist)?|GisellePaints|Nozomi((_)?Mats)?|RosenniaArts|(The)?Mandii|Basilisk(_Art)?|CylHighblossom|CelestialFang|lizbeth(490021)?|OffbeatWorlds|wildcharge(art)?|ammatice|waschbaerella|Radinsky|Yorugami|midorisa|level20Artist|AskMischi|viimorte|nalou_arts?|indii?creates|arhiee(art)?|themorrigans(art)?|LagerdahlPhoto|cabslogyt|ophelianoir|hiduranpdm|cince\.arts|offbeatworlds|artmmkay|celestialcommission|GianaraArt|thisisradinsky|karinkabogucka|jeleynai|e_maria|joan\.culum|magicalscopeart|onyrica|pastoutlander|othalam|indicreatesbusiness|june\.jenssen|angelis|solinii|delsdoodlesart|mastoart|delsdoodles|vajgand|dona@duck\.com|ottiliathouvenin|rachelmcewan(art)?|afferton(art)?|gracezhu(art)?|ariannaclimaci|Trooberger|ThisIsTroo|HeyItsAraas|peshiko(\.art)?|galders?(\-|\ |_|)?(art)?|tindomiel|LenoreLandry|(Tin)?Silverthorn|surenlicious(art)?|Lenamo(\.)?art)/i
 score TOXIC_ARTIST 100.0
 describe TOXIC_ARTIST Toxic artists. Better not to communicate with them. ("To protect your users!")
 
@@ -16,7 +16,7 @@ header STUPID_ADMINS From =~ /(hackers\.town|wxcafe\.net|weirder\.earth|tenforwa
 score STUPID_ADMINS 100.0
 describe STUPID_ADMINS You definitely don't want any mails from wannabe administrators with zero knowledge!
 
-header BULLY_SUPPORTER From =~ /(MicheleQuirke|pikabloo|JuliaMetzger(Art)?|LeraPI|Loftsteinn|Elbenherz(Art)?|artelsia|enia(art)?|Rgdraw|SmugGoat|(The)?KrakensMark)/i
+header BULLY_SUPPORTER From =~ /(MicheleQuirke|Neilbdoodles|pikabloo|JuliaMetzger(Art)?|LeraPI|Loftsteinn|Elbenherz(Art)?|artelsia|enia(art)?|Rgdraw|SmugGoat|(The)?KrakensMark)/i
 score BULLY_SUPPORTER 50.0
 describe BULLY_SUPPORTER Protecting known bullies by doing nothing against hate-speech, blackmailing, badmouthing or even doxxing.
 
