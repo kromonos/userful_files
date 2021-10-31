@@ -1,5 +1,7 @@
 # /etc/spamassassin/20_toxic_artists.cf
 #
+# Additional rules for spamassassin
+#
 # Homepage: https://bka.li/
 # Contribute: https://code.bka.li/BKA.li/useful_files
 # Please report problems to support@bka.li or https://support.bka.li
