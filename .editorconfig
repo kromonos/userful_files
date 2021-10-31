@@ -11,6 +11,7 @@ insert_final_newline = true
 
 [*.yml]
 [*.yaml]
+[*.hjson]
 indent_size = 2
 
 # The JSON files contain newlines inconsistently
