@@ -1,4 +1,7 @@
 ! Title: BKA.li custom adguard filter
+!
+! When I open news pages I want to read news and not comments from wannabe professionals, trolls and stupid people!
+!
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
