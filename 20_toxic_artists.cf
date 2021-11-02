@@ -8,7 +8,7 @@
 #
 # Important: Most settings classifies everything with a score of 5 or more as spam!
 #
-# Last update: 28.10.2021 15:09am
+# Last update: 02.11.2021 12:52pm
 
 header TOXIC_ARTIST From =~ /(AWP(_|\-)Art|ArtisticWolf(Prints)?|Chemikalienn|PastelLattee|KayWren(Paint)?|(Artof)?Yorugami|Skaav(Art)?|Tales(\s)of(\s)the(\s)Knights?|xPusteblume|Rina88aciR|ChessyBorder|jermtorries(art)?|ChloeCarter(Arts?)?|pp?aa?udraws?|SemmyJ(art)?|Faebelina|frenoneart|redkoi89|slauka|naarielart|EvieeChan|Arysae|sylessae|Lacrima(Art)?|DeaLun(Art)?|wnike(artist)?|GisellePaints|Nozomi((_)?Mats)?|RosenniaArts|(The)?Mandii|Basilisk(_Art)?|CylHighblossom|CelestialFang|lizbeth(490021)?|OffbeatWorlds|wildcharge(art)?|ammatice|waschbaerella|Radinsky|Yorugami|midorisa|level20Artist|AskMischi|viimorte|nalou_arts?|indii?creates|arhiee(art)?|themorrigans(art)?|LagerdahlPhoto|cabslogyt|ophelianoir|hiduranpdm|cince\.arts|offbeatworlds|artmmkay|celestialcommission|GianaraArt|thisisradinsky|karinkabogucka|jeleynai|e_maria|joan\.culum|magicalscopeart|onyrica|pastoutlander|othalam|indicreatesbusiness|june\.jenssen|angelis|solinii|delsdoodlesart|mastoart|delsdoodles|vajgand|dona@duck\.com|ottiliathouvenin|rachelmcewan(art)?|afferton(art)?|gracezhu(art)?|ariannaclimaci|Trooberger|ThisIsTroo|HeyItsAraas|peshiko(\.art)?|galders?(\-|\s|_|)?(art)?|tindomiel|LenoreLandry|(Tin)?Silverthorn|surenlicious(art)?|Lenamo(\.)?art|silverthorn\.house|FallenMirossa|AtomicRoboto|Nithclipse|anesvalt(\-|_)(art)?|wolve(\-|_)rain|pinxiedust|DrewWinchester|Arasteia(Art)?|maiderbee|Luneiress)/i
 score TOXIC_ARTIST 100.0
