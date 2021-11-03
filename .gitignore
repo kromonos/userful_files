@@ -1,7 +1,34 @@
+### .gitignore template file
+### Last modified 03.11.2021 12:06pm CEST
+
 ### Git ###
 # Created by git for backups. To disable backups in Git:
 # $ git config --global mergetool.keepBackup false
 *.orig
+
+### Backup ###
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+# Cake
+tools/*
+!tools/packages.config
+
+# CakePHP 2
+/app/tmp/*
+/app/Config/core.php
+/app/Config/database.php
+/vendors/*
+
+# CakePHP 3
+/config/app.php
+/config/.env
+/logs/*
+/tmp/*
+/vendor/*
 
 # Created by git when using merge tools for conflicts
 *.BACKUP.*
@@ -12,6 +39,10 @@
 *_BASE_*.txt
 *_LOCAL_*.txt
 *_REMOTE_*.txt
+
+# Swap Files #
+.*.kate-swp
+.swp.*
 
 ### Less ###
 *.less
@@ -60,6 +91,16 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### NetBeans ###
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
 ### Node ###
 # Logs
 logs
@@ -69,6 +110,29 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
+
+### PHPUnit ###
+# Covers PHPUnit
+# Reference: https://phpunit.de/
+
+# Generated files
+.phpunit.result.cache
+.phpunit.cache
+
+# PHPUnit
+/app/phpunit.xml
+/phpunit.xml
+
+# Build data
+/build/
+
+# Local History for Visual Studio Code
+.history/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -285,5 +349,13 @@ $RECYCLE.BIN/
 css/scss_cache/*
 !css/scss_cache/.gitkeep
 
+# Vendor folders used by e.g. composer
+vendor
+node-modules
+
+# Cache, log or tmp files should not be placed in a repository
 cache/*
 logs/*
+tmp/*
+
+.phpintel
