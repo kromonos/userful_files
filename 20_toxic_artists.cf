@@ -10,7 +10,7 @@
 #
 # Important: Most settings classifies everything with a score of 5 or more as spam!
 #
-# Last Modified: 03.11.2021 11:43am CEST
+# Last Modified: 04.11.2021 08:38pm CEST
 
 header TOXIC_ARTIST From =~ /(AWP(_|\-)Art|ArtisticWolf(Prints)?|Chemikalienn|PastelLattee|KayWren(Paint)?|(Artof)?Yorugami|Skaav(Art)?|Tales(\s)of(\s)the(\s)Knights?|xPusteblume|Rina88aciR|ChessyBorder|jermtorries(art)?|ChloeCarter(Arts?)?|pp?aa?udraws?|SemmyJ(art)?|Faebelina|frenoneart|redkoi89|slauk(a|i)|naariel(art)?|EvieeChan|Arysae|sylessae|Lacrima(Art)?|DeaLun(Art)?|wnike(artist)?|GisellePaints|Nozomi((_|\-)?Mats)?|RosenniaArts|(The)?Mandii|Basilisk(_Art)?|CylHighblossom|Celestial(Fang|commission|art)|lizbeth(490021)?|OffbeatWorlds|wildcharge(art)?|ammatice|waschbaerella|(This(Is)?)?Radinsky|midorisa|level20Artist|AskMischi|viimorte|nalou(_|\-|\.|\s)arts?|indii?creates|arhiee(art)?|themorrigans(art)?|LagerdahlPhoto|cabslog(yt)?|ophelia(\-|\.|\s)?noir|hiduranpdm|cince(\.)?arts|offbeatworlds?|artmmkay|GianaraArt|thisisradinsky|karinkabogucka|jeleynai|e_maria|joan\.culum|magicalscope(art)?|onyrica|pastoutlander|othalam|indicreatesbusiness|june\.jenssen|angelis|solinii|delsdoodlesart|mastoart|delsdoodles|vajgand|dona@duck\.com|ottiliathouvenin|rachelmcewan(art)?|afferton(art)?|gracezhu(art)?|ariannaclimaci|Trooberger|ThisIsTroo|HeyItsAraas|peshiko(\.art)?|galders?(\-|\s|_)?(art)?|tindomiel|LenoreLandry|(Tin)?Silverthorn|surenlicious(art)?|Lenamo(\.)?art|silverthorn\.house|FallenMirossa|AtomicRoboto|Nithclipse|anesvalt(\-|_)(art)?|wolve(\-|_)rain|pinxiedust|DrewWinchester|Arasteia(Art)?|maiderbee|Luneiress|nippaaah)/i
 score TOXIC_ARTIST 100.0
@@ -20,7 +20,7 @@ header STUPID_ADMINS From =~ /(hackers\.town|wxcafe\.net|weirder\.earth|tenforwa
 score STUPID_ADMINS 100.0
 describe STUPID_ADMINS You definitely don't want any mails from wannabe administrators with zero knowledge!
 
-header BULLY_SUPPORTER From =~ /(Michele(\s)?Quirke|Neilbdoodles|pikabloo|moonandrussell|Julia(\s|\.|\-|_)?Metzger(Art)?|LeraPI|Loftsteinn|Elbenherz(Art)?|artelsia|enia(art)?|Rgdraw|SmugGoat|(The)?KrakensMark|shadowsparkpub(\.com)?|authormccorkle(\.com)?|laura(\.|_|\-)vatovani|silverthorn\.house|CherRo(_|\-|\.)Art|vicevans137|PatrickMcCabeAC)/i
+header BULLY_SUPPORTER From =~ /(Michele(\s)?Quirke|Neilbdoodles|pikabloo|moonandrussell|Julia(\s|\.|\-|_)?Metzger(Art)?|LeraPI(_LP)?|Aleriia(_V)?|Loftsteinn|Elbenherz(Art)?|artelsia|enia(art)?|Rgdraw|SmugGoat|(The)?KrakensMark|shadowsparkpub(\.com)?|authormccorkle(\.com)?|laura(\.|_|\-)vatovani|silverthorn\.house|CherRo(_|\-|\.)Art|vicevans137|PatrickMcCabeAC)/i
 score BULLY_SUPPORTER 50.0
 describe BULLY_SUPPORTER Protecting known bullies by doing nothing against hate-speech, blackmailing, badmouthing or even doxxing.
 
