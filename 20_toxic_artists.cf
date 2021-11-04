@@ -10,7 +10,7 @@
 #
 # Important: Most settings classifies everything with a score of 5 or more as spam!
 #
-# Last Modified: 04.11.2021 08:38pm CEST
+# Last Modified: 04.11.2021 09:03pm CEST
 
 header TOXIC_ARTIST From =~ /(AWP(_|\-)Art|ArtisticWolf(Prints)?|Chemikalienn|PastelLattee|KayWren(Paint)?|(Artof)?Yorugami|Skaav(Art)?|Tales(\s)of(\s)the(\s)Knights?|xPusteblume|Rina88aciR|ChessyBorder|jermtorries(art)?|ChloeCarter(Arts?)?|pp?aa?udraws?|SemmyJ(art)?|Faebelina|frenoneart|redkoi89|slauk(a|i)|naariel(art)?|EvieeChan|Arysae|sylessae|Lacrima(Art)?|DeaLun(Art)?|wnike(artist)?|GisellePaints|Nozomi((_|\-)?Mats)?|RosenniaArts|(The)?Mandii|Basilisk(_Art)?|CylHighblossom|Celestial(Fang|commission|art)|lizbeth(490021)?|OffbeatWorlds|wildcharge(art)?|ammatice|waschbaerella|(This(Is)?)?Radinsky|midorisa|level20Artist|AskMischi|viimorte|nalou(_|\-|\.|\s)arts?|indii?creates|arhiee(art)?|themorrigans(art)?|LagerdahlPhoto|cabslog(yt)?|ophelia(\-|\.|\s)?noir|hiduranpdm|cince(\.)?arts|offbeatworlds?|artmmkay|GianaraArt|thisisradinsky|karinkabogucka|jeleynai|e_maria|joan\.culum|magicalscope(art)?|onyrica|pastoutlander|othalam|indicreatesbusiness|june\.jenssen|angelis|solinii|delsdoodlesart|mastoart|delsdoodles|vajgand|dona@duck\.com|ottiliathouvenin|rachelmcewan(art)?|afferton(art)?|gracezhu(art)?|ariannaclimaci|Trooberger|ThisIsTroo|HeyItsAraas|peshiko(\.art)?|galders?(\-|\s|_)?(art)?|tindomiel|LenoreLandry|(Tin)?Silverthorn|surenlicious(art)?|Lenamo(\.)?art|silverthorn\.house|FallenMirossa|AtomicRoboto|Nithclipse|anesvalt(\-|_)(art)?|wolve(\-|_)rain|pinxiedust|DrewWinchester|Arasteia(Art)?|maiderbee|Luneiress|nippaaah)/i
 score TOXIC_ARTIST 100.0
@@ -27,6 +27,10 @@ describe BULLY_SUPPORTER Protecting known bullies by doing nothing against hate-
 header BULLY_DOMAINS From =~ /@(bethesda|zenimax|twitter|cybersmile|mastodon\.art|onyrica\.art|sylessae\.art|shadowsparkpub\.com|authormccorkle\.com)/i
 score BULLY_DOMAINS 1.0
 describe BULLY_DOMAINS Protecting known bullies by doing nothing against hate-speech, blackmailing, badmouthing or even doxxing.
+
+uri TOXIC_URIS /(hackers\.town|wxcafe\.net|weirder\.earth|tenforward\.social|fuk\.re|rage\.love|eso\-rollenspiel\.de|mastodonten\.de|mastodon\.art|onyrica\.art|sylessae\.art|slime\.global|silverthorn\.house|shadowsparkpub\.com|authormccorkle\.com)/
+score TOXIC_URIS 50.0
+describe TOXIC_URIS URLs in body to sites of toxic artists, stupid admins and/or bullies
 
 header TOXIC_PROVIDER From =~ /@(gmail|live|outlook|google|googlemail)\.com/i
 score TOXIC_PROVIDER 1.0
