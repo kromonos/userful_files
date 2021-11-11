@@ -5,8 +5,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 02-11-2021 10:53 pm CEST
-! Version: 1.1.17.01
+! Last Modified: 11-11-2021 4:50 pm CEST
+! Version: 1.1.18.01
 !
 
 ! Damn comments
@@ -192,6 +192,14 @@ synonyme.woxikon.de###content > div.panel.panel-default:nth-child(8)
 synonyme.woxikon.de###content > div.panel.panel-default.faq:last-child
 synonyme.woxikon.de###content > div.external-sponsored.row:nth-child(6)
 synonyme.woxikon.de###content > div.panel.panel-default:nth-child(9)
+gamingonlinux.com###comments
+schlaunews.de###mh-comments
+schlaunews.de###respond
+schlaunews.de###custom_html-5
+schlaunews.de###mh_magazine_custom_posts-5 > ul.mh-custom-posts-widget.clearfix
+schlaunews.de###recent-comments-2
+schlaunews.de##div.mh-container.mh-container-outer:first-child > footer.mh-footer:nth-child(6)
+schlaunews.de##div.mh-container.mh-container-outer:first-child > div.mh-wrapper.clearfix:nth-child(5) > div.mh-main.clearfix:first-child > aside.mh-widget-col-1.mh-sidebar:last-child
 
 ! Whitelists
 @@||rev.fapsi.be^
