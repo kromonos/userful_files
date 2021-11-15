@@ -1,0 +1,44 @@
+# Postfix header checks.
+# Add with following line into you main.cf:
+# header_checks = pcre:/etc/postfix/filter/header_check.pcre
+#
+# /etc/postfix/filter/header_checks.pcre
+
+# Spamassassin
+/X-Spam-Level: \*{9,}/ REJECT Your mail was classified as spam and was not delivered to the receiver!
+
+# Bullies
+/X-Spam-Status: Yes(.*)(BULLY_SUPPORTER|TOXIC_ARTIST)/ REJECT This server does not accept messages from bullies. Go away and bully someone else! Better: Get a life!
+
+# Stupid admins
+/X-Spam-Status: Yes(.*)(STUPID_ADMINS)/ REJECT This server does not accept messages from stupid people. Go away and learn how to run a server!
+
+# Bully domains
+/X-Spam-Status: (.*)(BULLY_DOMAINS)/ WARN Message from a bully supporting nutbag reached this server.
+
+# attachements
+/^Content-(Type|Disposition):.*(file)?name=.*\.(ade|adp|asd|bas|bat|chm|cmd|com|cpl|crt|dbx|dll|exe|hlp|hta|jar|js|jse|lnk|ocx|pif|scr|shb|shm|shs|swf|vb|vbe|vbs|vbx|vxd|wsf|wsh)/	REJECT Sorry, we do not accept .${3} file types.
+
+# charset
+/^Content-Type:.*charset="?(big5|euc-jp|euc-kr|euc-tw|gb2312|iso-2022-jp|koi8|ks_c_5601-1987|windows-1251)"?/	REJECT Sorry, we do not accept messages in the ${1} character set.
+/^(From|Subject): .*=\?(big5|euc-jp|euc-kr|euc-tw|gb2312|iso-2022-jp|koi8|ks_c_5601-1987|windows-1251)\?/	REJECT Sorry, we do not accept messages in the ${2} character set.
+
+# To rules
+/^To: undisclosed recipients*/ REJECT Please specify a valid recipient
+/^To: <>/ REJECT Please specify a valid To: header
+
+# Additionals
+/^From:.*govali.com/ REJECT Go away
+/^From:.*hotwheesl.com/ REJECT Go away
+/^From:.*info.it/ REJECT Go away
+/^From:.*bordersvartiotfresh.com/ REJECT Go away
+/^From:.*redirectlevel4.com/ REJECT Go away
+/^From:.*dlndr.com/ REJECT Go away
+/^From:.*gamermailer.com/ REJECT Go away
+/^From:.*venere.com/ REJECT Go away
+/^From:.*posle.it/ REJECT Go away
+/^From:.*osec.com/ REJECT Go away
+/^From:.*wonderfulsuper.com/ REJECT Go away
+/^From:.*visasport.it/ REJECT Go away
+/^From:.*supreme-prime.com/ REJECT Go away
+/^From:.*ubc.ca/ REJECT Go away
