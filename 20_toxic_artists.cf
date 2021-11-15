@@ -32,6 +32,9 @@ uri TOXIC_URIS /(hackers\.town|wxcafe\.net|weirder\.earth|tenforward\.social|fuk
 score TOXIC_URIS 50.0
 describe TOXIC_URIS URLs in body to sites of toxic artists, stupid admins and/or bullies
 
-header TOXIC_PROVIDER From =~ /@(gmail|live|outlook|google|googlemail)\.com/i
+header __TOXIC_PROVIDER_FROM From =~ /@(gmail|live|outlook|google|googlemail)\.com/i
+header __TOXIC_PROVIDER_REC_OUTLOOK Received =~ /\bprotection\.outlook\.com\b/i
+header __TOXIC_PROVIDER_REC_GOOGLE Received =~ /\bgoogle\.com\b/i
+meta TOXIC_PROVIDER (__TOXIC_PROVIDER_FROM || __TOXIC_PROVIDER_REC_GOOGLE || __TOXIC_PROVIDER_REC_OUTLOOK)
 score TOXIC_PROVIDER 2.5
 describe TOXIC_PROVIDER GMail and Microsoft do not fit EU privacy policy and are often used by toxic artists and their stupid minions!
