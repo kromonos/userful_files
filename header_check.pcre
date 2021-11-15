@@ -4,17 +4,17 @@
 #
 # /etc/postfix/filter/header_checks.pcre
 
-# Spamassassin
-/X-Spam-Level: \*{9,}/ REJECT Your mail was classified as spam and was not delivered to the receiver!
-
 # Bullies
-/X-Spam-Status: Yes(.*)(BULLY_SUPPORTER|TOXIC_ARTIST)/ REJECT This server does not accept messages from bullies. Go away and bully someone else! Better: Get a life!
+/X-Spam-Status: Yes(.*)(BULLY_SUPPORTER|TOXIC_ARTIST)/ REJECT This server does not accept messages from bullies. Go away and bully someone else! Better: Get a life! Your mail was not delivered to the receiver!
 
 # Stupid admins
-/X-Spam-Status: Yes(.*)(STUPID_ADMINS)/ REJECT This server does not accept messages from stupid people. Go away and learn how to run a server!
+/X-Spam-Status: Yes(.*)(STUPID_ADMINS)/ REJECT This server does not accept messages from stupid people. Go away and learn how to run a server! Your mail was not delivered to the receiver!
 
 # Bully domains
 /X-Spam-Status: (.*)(BULLY_DOMAINS)/ WARN Message from a bully supporting nutbag reached this server.
+
+# We don't need spam
+/X-Spam-Level: \*{9,}/ REJECT Your mail was classified as spam and was not delivered to the receiver!
 
 # attachements
 /^Content-(Type|Disposition):.*(file)?name=.*\.(ade|adp|asd|bas|bat|chm|cmd|com|cpl|crt|dbx|dll|exe|hlp|hta|jar|js|jse|lnk|ocx|pif|scr|shb|shm|shs|swf|vb|vbe|vbs|vbx|vxd|wsf|wsh)/	REJECT Sorry, we do not accept .${3} file types.
