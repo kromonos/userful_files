@@ -3,6 +3,7 @@
 # header_checks = pcre:/etc/postfix/filter/header_check.pcre
 #
 # /etc/postfix/filter/header_checks.pcre
+# Last Modified: 15.11.2021 5:53pm CEST
 
 # Bullies
 /X-Spam-Status: Yes(.*)(BULLY_SUPPORTER|TOXIC_ARTIST)/ REJECT This server does not accept messages from bullies. Go away and bully someone else! Better: Get a life! Your mail was not delivered to the receiver!
