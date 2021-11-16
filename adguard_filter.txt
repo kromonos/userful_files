@@ -5,8 +5,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 11-11-2021 4:50 pm CEST
-! Version: 1.1.18.01
+! Last Modified: 11-16-2021 4:25 pm CEST
+! Version: 1.1.18.02
 !
 
 ! Damn comments
@@ -200,6 +200,9 @@ schlaunews.de###mh_magazine_custom_posts-5 > ul.mh-custom-posts-widget.clearfix
 schlaunews.de###recent-comments-2
 schlaunews.de##div.mh-container.mh-container-outer:first-child > footer.mh-footer:nth-child(6)
 schlaunews.de##div.mh-container.mh-container-outer:first-child > div.mh-wrapper.clearfix:nth-child(5) > div.mh-main.clearfix:first-child > aside.mh-widget-col-1.mh-sidebar:last-child
+ansuz.sooke.bc.ca###content > p.comments:nth-child(79)
+ansuz.sooke.bc.ca###content > div.commentblock:nth-child(80)
+ansuz.sooke.bc.ca###commentform
 
 ! Whitelists
 @@||rev.fapsi.be^
