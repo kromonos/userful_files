@@ -1,6 +1,7 @@
 # /etc/spamassassin/20_toxic_artists.cf
 #
-# Additional rules for spamassassin
+# Additional rules for spamassassin to lock out toxic people who through hypocrisy, lies, arrogance, ignorance not only try to destroy other people's lives, but also crawl so far up other people's asses that you would have to tie a rope around their legs to get them out again.
+# Nobody really wants people like that. Nobody needs them either. They are useless waste that is a burden on society and an insult to any intelligence.
 #
 # Homepage: https://bka.li/
 # Contribute: https://code.bka.li/BKA.li/useful_files
@@ -10,25 +11,26 @@
 #
 # Important: Most settings classifies everything with a score of 5 or more as spam!
 #
-# Last Modified: 16.11.2021 10:21am CEST
+# Last Modified: 16.11.2021 1:55am CEST
 
 header TOXIC_ARTIST From =~ /(AWP(_|\-)Art|ArtisticWolf(Prints)?|Chemikalienn|PastelLattee|KayWren(Paint)?|(Artof)?Yorugami|Skaav(Art)?|Tales(\s)of(\s)the(\s)Knights?|xPusteblume|Rina88aciR|ChessyBorder|jermtorries(art)?|ChloeCarter(Arts?)?|pp?aa?udraws?|SemmyJ(art)?|Faebelina|frenoneart|redkoi89|slauk(a|i)|naariel(art)?|EvieeChan|Arysae|sylessae|Lacrima(Art)?|DeaLun(Art)?|wnike(artist)?|GisellePaints|Nozomi((_|\-)?Mats)?|RosenniaArts|(The)?Mandii|Basilisk(_Art)?|CylHighblossom|Celestial(Fang|commission|art)|lizbeth(490021)?|OffbeatWorlds|wildcharge(art)?|ammatice|waschbaerella|(This(Is)?)?Radinsky|midorisa|level20Artist|AskMischi|viimorte|nalou(_|\-|\.|\s)arts?|indii?creates|arhiee(art)?|themorrigans(art)?|LagerdahlPhoto|cabslog(yt)?|ophelia(\-|\.|\s)?noir|hiduranpdm|cince(\.)?arts|offbeatworlds?|artmmkay|GianaraArt|thisisradinsky|karinkabogucka|jeleynai|e_maria|joan\.culum|magicalscope(art)?|onyrica|pastoutlander|othalam|indicreatesbusiness|june(\.|\-|_)?jenss?en|angelis|(mu)?solinii?|delsdoodles(art)?|mastoart|vajgand|dona@duck\.com|ottiliathouvenin|rachelmcewan(art)?|afferton(art)?|gracezhu(art)?|ariannaclimaci|Trooberger|ThisIsTroo|HeyItsAraas|peshiko(\.art)?|galders?(\-|\s|_)?(art)?|tindomiel|LenoreLandry|(Tin)?Silverthorn|surenlicious(art)?|Lenamo(\.)?art|silverthorn\.house|FallenMirossa|AtomicRoboto|Nithclipse|anesvalt(\-|_)(art)?|wolve(\-|_)rain|pinxiedust|DrewWinchester|Arasteia(Art)?|maiderbee|Luneiress|nippa{1,3}h|shargon)/i
 score TOXIC_ARTIST 100.0
 describe TOXIC_ARTIST Toxic artists. Better not to communicate with them. ("To protect your users!")
 
-header STUPID_ADMINS From =~ /(hackers\.town|wxcafe\.net|weirder\.earth|tenforward\.social|fuk\.re|rage\.love|eso\-rollenspiel\.de|mastodonten\.de|mastodon\.art|onyrica\.art|sylessae\.art|slime\.global|silverthorn\.house|instagram\.com)/i
+header STUPID_ADMINS From =~ /(hackers\.town|wxcafe\.net|weirder\.earth|tenforward\.social|fuk\.re|rage\.love|eso\-rollenspiel\.de|mastodonten\.de|(mastodon|onyrica|sylessae)\.art|slime\.global|silverthorn\.house)/i
 score STUPID_ADMINS 100.0
 describe STUPID_ADMINS You definitely don't want any mails from wannabe administrators with zero knowledge!
 
-header BULLY_SUPPORTER From =~ /(Michele(\s)?Quirke|Neilbdoodles|pikabloo|moonandrussell|Julia(\s|\.|\-|_)?Metzger(Art)?|LeraPI(_LP)?|Aleriia(_V)?|Loftsteinn|Elbenherz(Art)?|artelsia|enia(art)?|Rgdraw|SmugGoat|(The)?KrakensMark|shadowsparkpub(\.com)?|authormccorkle(\.com)?|laura(\.|_|\-)vatovani|silverthorn\.house|CherRo(_|\-|\.)Art|vicevans137|PatrickMcCabeAC|raekomi{1,3}|cybersmile)/i
+header BULLY_SUPPORTER From =~ /(Michele(\s)?Quirke|Neilbdoodles|pikablo{2,}|moonandrussell|Julia(\s|\.|\-|_)?Metzger(Art)?|LeraPI(_LP)?|Aleriia(_V)?|Loftsteinn|Elbenherz(Art)?|artelsia|enia(art)?|Rgdraw|SmugGoat|(The)?KrakensMark|shadowsparkpub(\.com)?|authormccorkle(\.com)?|(laura(\.|_|\-))?vatovani|silverthorn\.house|CherRo((_|\-|\.)Art)?|vicevans137|PatrickMcCabeAC|raekomi{1,3}|cybersmile\.(org|com))/i
 score BULLY_SUPPORTER 50.0
 describe BULLY_SUPPORTER Protecting known bullies by doing nothing against hate-speech, blackmailing, badmouthing or even doxxing.
 
-header BULLY_DOMAINS From =~ /@(bethesda|zenimax|twitter|cybersmile|mastodon\.art|onyrica\.art|sylessae\.art|shadowsparkpub\.com|authormccorkle\.com)/i
+header BULLY_DOMAINS From =~ /@(bethesda|zenimax|twitter\.com|cybersmile\.(com|org)|(mastodon|onyrica|sylessae)\.art|(shadowsparkpub|authormccorkle|instagram|facebook)\.com)/i
 score BULLY_DOMAINS 2.5
 describe BULLY_DOMAINS Protecting known bullies by doing nothing against hate-speech, blackmailing, badmouthing or even doxxing.
 
-uri TOXIC_URIS /(hackers\.town|wxcafe\.net|weirder\.earth|tenforward\.social|fuk\.re|rage\.love|eso\-rollenspiel\.de|mastodonten\.de|mastodon\.art|onyrica\.art|sylessae\.art|slime\.global|silverthorn\.house|shadowsparkpub\.com|authormccorkle\.com)/
+uri __TOXIC_URIS /(hackers\.town|wxcafe\.net|weirder\.earth|tenforward\.social|fuk\.re|rage\.love|eso\-rollenspiel\.de|mastodonten\.de|(mastodon|onyrica|sylessae)\.art|slime\.global|silverthorn\.house|shadowsparkpub\.com|authormccorkle\.com)/
+meta TOXIC_URIS (BULLY_DOMAINS || __TOXIC_URIS || STUPID_ADMINS)
 score TOXIC_URIS 50.0
 describe TOXIC_URIS URLs in body to sites of toxic artists, stupid admins and/or bullies
 
