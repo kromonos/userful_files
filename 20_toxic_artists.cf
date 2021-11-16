@@ -9,11 +9,11 @@
 #
 # Direct link: https://code.bka.li/BKA.li/useful_files/raw/branch/master/20_toxic_artists.cf
 #
-# Important: Most settings classifies everything with a score of 5 or more as spam!
+# Important: Most mail server classify anything with a score of 5 or more as spam and automatically reject anything with a score of 10 or more, without notification to the recipient.
 #
-# Last Modified: 16.11.2021 1:55am CEST
+# Last Modified: 16.11.2021 3:50am CEST
 
-header TOXIC_ARTIST From =~ /(AWP(_|\-)Art|ArtisticWolf(Prints)?|Chemikalienn|PastelLattee|KayWren(Paint)?|(Artof)?Yorugami|Skaav(Art)?|Tales(\s)of(\s)the(\s)Knights?|xPusteblume|Rina88aciR|ChessyBorder|jermtorries(art)?|ChloeCarter(Arts?)?|pp?aa?udraws?|SemmyJ(art)?|Faebelina|frenoneart|redkoi89|slauk(a|i)|naariel(art)?|EvieeChan|Arysae|sylessae|Lacrima(Art)?|DeaLun(Art)?|wnike(artist)?|GisellePaints|Nozomi((_|\-)?Mats)?|RosenniaArts|(The)?Mandii|Basilisk(_Art)?|CylHighblossom|Celestial(Fang|commission|art)|lizbeth(490021)?|OffbeatWorlds|wildcharge(art)?|ammatice|waschbaerella|(This(Is)?)?Radinsky|midorisa|level20Artist|AskMischi|viimorte|nalou(_|\-|\.|\s)arts?|indii?creates|arhiee(art)?|themorrigans(art)?|LagerdahlPhoto|cabslog(yt)?|ophelia(\-|\.|\s)?noir|hiduranpdm|cince(\.)?arts|offbeatworlds?|artmmkay|GianaraArt|thisisradinsky|karinkabogucka|jeleynai|e_maria|joan\.culum|magicalscope(art)?|onyrica|pastoutlander|othalam|indicreatesbusiness|june(\.|\-|_)?jenss?en|angelis|(mu)?solinii?|delsdoodles(art)?|mastoart|vajgand|dona@duck\.com|ottiliathouvenin|rachelmcewan(art)?|afferton(art)?|gracezhu(art)?|ariannaclimaci|Trooberger|ThisIsTroo|HeyItsAraas|peshiko(\.art)?|galders?(\-|\s|_)?(art)?|tindomiel|LenoreLandry|(Tin)?Silverthorn|surenlicious(art)?|Lenamo(\.)?art|silverthorn\.house|FallenMirossa|AtomicRoboto|Nithclipse|anesvalt(\-|_)(art)?|wolve(\-|_)rain|pinxiedust|DrewWinchester|Arasteia(Art)?|maiderbee|Luneiress|nippa{1,3}h|shargon)/i
+header TOXIC_ARTIST From =~ /(AWP(_|\-)Art|ArtisticWolf(Prints)?|Chemikalienn|PastelLattee|KayWren(Paint)?|(Artof)?Yorugami|Skaav(Art)?|Tales(\s)of(\s)the(\s)Knights?|xPusteblume|Rina88aciR|ChessyBorder|jermtorries(art)?|ChloeCarter(Arts?)?|pp?aa?udraws?|SemmyJ(art)?|Faebelina|frenoneart|redkoi89|slauk(a|i)|naariel(art)?|EvieeChan|Arysae|sylessae|Lacrima(Art)?|DeaLun(Art)?|wnike(artist)?|GisellePaints|Nozomi((_|\-)?Mats)?|RosenniaArts|(The)?Mandii|Basilisk(_Art)?|CylHighblossom|Celestial(Fang|commission|art)|lizbeth(490021)?|OffbeatWorlds|wildcharge(art)?|ammatice|waschbaerella|(This(Is)?)?Radinsky|midorisa|level20Artist|AskMischi|viimorte|nalou(_|\-|\.|\s)arts?|indii?creates|arhiee(art)?|themorrigans(art)?|LagerdahlPhoto|cabslog(yt)?|ophelia(\-|\.|\s)?noir|hiduranpdm|cince(\.)?arts|offbeatworlds?|artmmkay|GianaraArt|thisisradinsky|karinkabogucka|jeleynai|e_maria|joan\.culum|magicalscope(art)?|onyrica|pastoutlander|othalam|indii?creates(business)?|june(\.|\-|_)?jenss?en|angelise?|(mu)?solinii?|delsdoodles(art)?|mastoart|vajgand|dona@duck\.com|ottiliathouvenin|rachelmcewan(art)?|afferton(art)?|gracezhu(art)?|ariannaclimaci|Trooberger|ThisIsTroo|HeyItsAraas|peshiko(\.art)?|galders?(\-|\s|_)?(art)?|tindomiel|LenoreLandry|(Tin)?Silverthorn|surenlicious(art)?|Lenamo(\.)?art|silverthorn\.house|FallenMirossa|AtomicRoboto|Nithclipse|anesvalt(\-|_)(art)?|wolve(\-|_)rain|pinxiedust|DrewWinchester|Arasteia(Art)?|maiderbee|Luneiress|nippa{1,3}h|shargon)/i
 score TOXIC_ARTIST 100.0
 describe TOXIC_ARTIST Toxic artists. Better not to communicate with them. ("To protect your users!")
 
@@ -25,18 +25,16 @@ header BULLY_SUPPORTER From =~ /(Michele(\s)?Quirke|Neilbdoodles|pikablo{2,}|moo
 score BULLY_SUPPORTER 50.0
 describe BULLY_SUPPORTER Protecting known bullies by doing nothing against hate-speech, blackmailing, badmouthing or even doxxing.
 
-header BULLY_DOMAINS From =~ /@(bethesda|zenimax|twitter\.com|cybersmile\.(com|org)|(mastodon|onyrica|sylessae)\.art|(shadowsparkpub|authormccorkle|instagram|facebook)\.com)/i
-score BULLY_DOMAINS 2.5
-describe BULLY_DOMAINS Protecting known bullies by doing nothing against hate-speech, blackmailing, badmouthing or even doxxing.
-
 uri __TOXIC_URIS /(hackers\.town|wxcafe\.net|weirder\.earth|tenforward\.social|fuk\.re|rage\.love|eso\-rollenspiel\.de|mastodonten\.de|(mastodon|onyrica|sylessae)\.art|slime\.global|silverthorn\.house|shadowsparkpub\.com|authormccorkle\.com)/
 meta TOXIC_URIS (BULLY_DOMAINS || __TOXIC_URIS || STUPID_ADMINS)
 score TOXIC_URIS 50.0
 describe TOXIC_URIS URLs in body to sites of toxic artists, stupid admins and/or bullies
 
-header __TOXIC_PROVIDER_FROM From =~ /@(gmail|live|outlook|google|googlemail)\.com/i
+header __BULLY_DOMAINS From =~ /@(bethesda|zenimax|twitter\.com|cybersmile\.(com|org)|(mastodon|onyrica|sylessae)\.art|(shadowsparkpub|authormccorkle|instagram|facebook)\.com)/i
+describe __BULLY_DOMAINS Protecting known bullies by doing nothing against hate-speech, blackmailing, badmouthing or even doxxing.
+header __TOXIC_PROVIDER_FROM From =~ /@(gmail|live|outlook|google(mail)?|duck)\.com/i
 header __TOXIC_PROVIDER_REC_OUTLOOK Received =~ /\bprotection\.outlook\.com\b/i
 header __TOXIC_PROVIDER_REC_GOOGLE Received =~ /\bgoogle\.com\b/i
-meta TOXIC_PROVIDER (__TOXIC_PROVIDER_FROM || __TOXIC_PROVIDER_REC_GOOGLE || __TOXIC_PROVIDER_REC_OUTLOOK)
+meta TOXIC_PROVIDER (__TOXIC_PROVIDER_FROM || __TOXIC_PROVIDER_REC_GOOGLE || __TOXIC_PROVIDER_REC_OUTLOOK || __BULLY_DOMAINS)
 score TOXIC_PROVIDER 2.0
 describe TOXIC_PROVIDER GMail and Microsoft do not fit EU privacy policy and are often used by toxic artists and their stupid minions!
