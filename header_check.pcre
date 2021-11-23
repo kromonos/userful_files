@@ -29,6 +29,8 @@
 /^To: <>/ REJECT Please specify a valid To: header
 
 # Additionals
+/^Subject:.*Color ist angesagt/ REJECT This server does not accept messages from stupid people. Go away and learn how to run a server! Your mail was not delivered to the receiver! If you think this is a mistake, you can submit a ticket at https://support.bka.li!
+/^Message-ID:.*@fearof.net/ REJECT This server does not accept messages from stupid people. Go away and learn how to run a server! Your mail was not delivered to the receiver! If you think this is a mistake, you can submit a ticket at https://support.bka.li!
 /^From:.*govali.com/ REJECT Go away
 /^From:.*hotwheesl.com/ REJECT Go away
 /^From:.*info.it/ REJECT Go away
