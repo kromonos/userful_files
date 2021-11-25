@@ -6,7 +6,7 @@
 # Last Modified: 15.11.2021 5:53pm CEST
 
 # Bullies
-/X-Spam-Status: Yes(.*)(BULLY_SUPPORTER|TOXIC_ARTIST)/ REJECT This server does not accept messages from bullies. Go away and bully someone else! Better: Get a life! Your mail was not delivered to the receiver! If you think this is a mistake, you can submit a ticket at https://support.bka.li!
+/X-Spam-Status: Yes(.*)(BULLY_SUPPORTER|TOXIC_ARTIST)/ REJECT This server does not accept messages from parasitic, arrogant narcissists who believe they can spread hate on the Internet because they believe they are better than others. Go away and bully someone else! Better: Get a life! Your mail was not delivered to the receiver! If you think this is a mistake, you can submit a ticket at https://support.bka.li!
 
 # Stupid admins
 /X-Spam-Status: Yes(.*)(STUPID_ADMINS)/ REJECT This server does not accept messages from stupid people. Go away and learn how to run a server! Your mail was not delivered to the receiver! If you think this is a mistake, you can submit a ticket at https://support.bka.li!
