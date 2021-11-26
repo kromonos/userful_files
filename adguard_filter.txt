@@ -5,8 +5,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 11-21-2021 11:33 pm CEST
-! Version: 1.1.18.03
+! Last Modified: 11-26-2021 3:57 pm CEST
+! Version: 1.1.18.04
 !
 
 ! Damn comments
@@ -204,6 +204,7 @@ ansuz.sooke.bc.ca###content > p.comments:nth-child(79)
 ansuz.sooke.bc.ca###content > div.commentblock:nth-child(80)
 ansuz.sooke.bc.ca###commentform
 daserste.de###content > div.wrapper > div.wrapperInformation:nth-child(5) > div.section.sectionZ:first-child > div.con:last-child > div.modCon
+golem.de###screen > div.g.g6.wraptusplit:nth-child(4)
 
 ! Whitelists
 @@||rev.fapsi.be^
