@@ -45,22 +45,22 @@ def blockips(iplist, ipver, asn):
     else:
         ipt="/sbin/iptables"
     print("<> Using: "+ipt)
-    print("<> Cleanup existing chain: block-as"+asn)
-    subprocess.call([ipt,"-D","INPUT","-j","block-as"+asn])
-    subprocess.call([ipt,"-F","block-as"+asn])
-    subprocess.call([ipt,"-X","block-as"+asn])
-    print("<> Create new chain: block-as"+asn)
-    subprocess.call([ipt,"-N","block-as"+asn])
+    print("<> Cleanup existing chain: as"+asn)
+    subprocess.call([ipt,"-D","INPUT","-j","as"+asn])
+    subprocess.call([ipt,"-F","as"+asn])
+    subprocess.call([ipt,"-X","as"+asn])
+    print("<> Create new chain: as"+asn)
+    subprocess.call([ipt,"-N","as"+asn])
 
     for ip in iplist:
-        subprocess.call([ipt,"-A","block-as"+asn,"-s",ip,"-j","block-as"+asn])
+        subprocess.call([ipt,"-A","as"+asn,"-s",ip,"-j","as"+asn])
 
-    subprocess.call([ipt,"-A","block-as"+asn,"-j","RETURN"])
-    subprocess.call([ipt,"-I","INPUT","-j","block-as"+asn])
+    subprocess.call([ipt,"-A","as"+asn,"-j","RETURN"])
+    subprocess.call([ipt,"-I","INPUT","-j","as"+asn])
 
 def main():
     if len(sys.argv)<2:
-        print("Usage:blockasn.py <asn>")
+        print("Usage: blockasn.py <asn>")
         sys.exit(1)
     else:
         v4,v6=get_IPlist(sys.argv[1])
