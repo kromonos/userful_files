@@ -52,10 +52,13 @@ def blockips(iplist, ipver, asn):
     print("<> Create new chain: block-as"+asn)
     subprocess.call([ipt,"-N","block-as"+asn])
 
+    print("<> Adding IP addresses")
     for ip in iplist:
         subprocess.call([ipt,"-A","block-as"+asn,"-s",ip,"-j","REJECT"])
 
+    print("<> Finishing chain")
     subprocess.call([ipt,"-A","block-as"+asn,"-j","RETURN"])
+    print("<> Add INPUT filter")
     subprocess.call([ipt,"-I","INPUT","-j","block-as"+asn])
 
 def main():
