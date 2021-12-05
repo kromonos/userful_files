@@ -53,7 +53,7 @@ def blockips(iplist, ipver, asn):
     subprocess.call([ipt,"-N","block-as"+asn])
 
     for ip in iplist:
-        subprocess.call([ipt,"-A","block-as"+asn,"-s",ip,"-j","DROP"])
+        subprocess.call([ipt,"-A","block-as"+asn,"-s",ip,"-j","REJECT"])
 
     subprocess.call([ipt,"-A","block-as"+asn,"-j","RETURN"])
     subprocess.call([ipt,"-I","INPUT","-j","block-as"+asn])
