@@ -5,8 +5,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 12-16-2021 02:06 pm CEST
-! Version: 1.1.19.01
+! Last Modified: 12-21-2021 03:40 pm CEST
+! Version: 1.1.20.01
 !
 
 ! Damn comments
@@ -24,6 +24,9 @@ heise.de##div.container_all:nth-child(3) > div.row > div.col-md-10:nth-child(2) 
 heise.de##div.container_all:nth-child(3) > div.row > div.col-md-10:nth-child(2) > div.container > div.row.tp_content:nth-child(4) > main.col-md-8:first-child > article.akwa-article:first-child > footer.beitragsfooter:nth-child(14) > div.beitragsfooter__topic-share:nth-child(2) > div.article-sharing.beitragsfooter__item:last-child > div.article-sharing__links:last-child > a.share-link.share-link--facebook.article-sharing__link:nth-child(2)
 heise.de##div.container_all:nth-child(3) > div.row > div.col-md-10:nth-child(2) > div.container > div.row.tp_content:nth-child(4) > main.col-md-8:first-child > article.akwa-article:first-child > footer.beitragsfooter:nth-child(14) > div.beitragsfooter__topic-share:nth-child(2) > div.article-sharing.beitragsfooter__item:last-child > div.article-sharing__links:last-child > a.share-link.share-link--pocket.article-sharing__link:first-child
 heise.de##div.container_all:nth-child(3) > div.row > div.col-md-10:nth-child(2) > div.container > div.row.tp_content:nth-child(4) > main.col-md-8:first-child > article.akwa-article:first-child > footer.beitragsfooter:nth-child(14) > div.beitragsfooter__topic-share:nth-child(2) > div.article-sharing.beitragsfooter__item:last-child > div.article-sharing__links:last-child > a.share-link.share-link--twitter.article-sharing__link:nth-child(3)
+heise.de##div.container_all:nth-child(4) > div.row > div.col-md-10:nth-child(2) > div.container > div.row.tp_content:nth-child(4) > main.col-md-8:first-child > article.akwa-article:first-child > footer.beitragsfooter:nth-child(19) > a.kommentare_lesen_link:first-child
+heise.de##div.container_all:nth-child(4) > div.row > div.col-md-10:nth-child(2) > div.container > div.row.tp_content:nth-child(4) > aside.top_beitraege_teaser.aside_teaser.col-md-4.col-sm-6.tpteaser:nth-child(6)
+heise.de##div.container_all:nth-child(4) > div.row > div.col-md-10:nth-child(2) > div.container > div.row.tp_content:nth-child(4) > aside.top_beitraege_teaser.aside_teaser.col-md-4.col-sm-6.tpteaser:nth-child(5)
 golem.de###tusplit1 > div.g.g6:first-child
 youtube.com###comments
 thecoppersanctum.github.io##a:nth-child(5) > img
