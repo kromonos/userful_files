@@ -5,8 +5,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 12-21-2021 10:33 pm CEST
-! Version: 1.1.20.02
+! Last Modified: 12-26-2021 07:18 pm CEST
+! Version: 1.1.21.01
 !
 
 ! Damn comments
@@ -219,6 +219,12 @@ belloflostsouls.net###theme-layout > div.waves-container:nth-child(2) > div.wave
 belloflostsouls.net###adunitposttop
 belloflostsouls.net###ad-unit-post-top
 belloflostsouls.net###rpwwt-recent-posts-widget-with-thumbnails-10
+spiegel.de###Inhalt > article.bg-white.dark\:bg-dm-shade-darkest.shadow:first-child > footer:last-child > div.flex.items-center.justify-between.lg\:w-8\/12.md\:w-10\/12.lg\:px-24.md\:px-24.sm\:px-16.lg\:pb-32.md\:pb-32.sm\:pb-24.mt-24.mx-auto
+spiegel.de##div.OffsetContainer.sm\:bg-shade-lightest.sm\:dark\:bg-black.md\:bg-shade-lightest.md\:dark\:bg-black:nth-child(7) > div.relative.z-20.w-full.mx-auto.sm\:max-w-sm.md\:max-w-md.lg\:max-w-lg > div.relative.lg\:pt-8.md\:pt-8.sm\:pt-4.lg\:px-8.lg\:bg-shade-lightest.lg\:dark\:bg-black:last-child > footer.relative.z-10:last-child > div.z-10.relative > div.shadow.lg\:rounded.bg-shade-darkest.lg\:py-40.md\:py-32.sm\:py-24.mb-4:first-child
+spiegel.de##div.OffsetContainer.sm\:bg-shade-lightest.sm\:dark\:bg-black.md\:bg-shade-lightest.md\:dark\:bg-black:nth-child(7) > div.relative.z-20.w-full.mx-auto.sm\:max-w-sm.md\:max-w-md.lg\:max-w-lg > div.relative.lg\:pt-8.md\:pt-8.sm\:pt-4.lg\:px-8.lg\:bg-shade-lightest.lg\:dark\:bg-black:last-child > footer.relative.z-10:last-child > div.z-10.relative > div.shadow.lg\:rounded.bg-shade-darkest.lg\:py-32.md\:py-32.sm\:pt-24.sm\:pb-4:last-child > div:nth-child(2)
+spiegel.de##div.OffsetContainer.sm\:bg-shade-lightest.sm\:dark\:bg-black.md\:bg-shade-lightest.md\:dark\:bg-black:nth-child(7) > div.relative.z-20.w-full.mx-auto.sm\:max-w-sm.md\:max-w-md.lg\:max-w-lg > div.relative.lg\:pt-8.md\:pt-8.sm\:pt-4.lg\:px-8.lg\:bg-shade-lightest.lg\:dark\:bg-black:last-child > footer.relative.z-10:last-child > div.z-10.relative > div.shadow.lg\:rounded.bg-shade-darkest.lg\:py-32.md\:py-32.sm\:pt-24.sm\:pb-4:last-child > div.sm\:overflow-hidden:first-child
+spiegel.de##div.OffsetContainer.sm\:bg-shade-lightest.sm\:dark\:bg-black.md\:bg-shade-lightest.md\:dark\:bg-black:nth-child(7) > div.relative.z-20.w-full.mx-auto.sm\:max-w-sm.md\:max-w-md.lg\:max-w-lg > div.relative.lg\:pt-8.md\:pt-8.sm\:pt-4.lg\:px-8.lg\:bg-shade-lightest.lg\:dark\:bg-black:last-child > footer.relative.z-10:last-child > div.z-10.relative > div.shadow.lg\:rounded.bg-shade-darkest.lg\:py-32.md\:py-32.sm\:pt-24.sm\:pb-4:last-child > div.bg-black.lg\:py-40.md\:py-32.sm\:py-24.sm\:mt-8:nth-child(3)
+spiegel.de##div.OffsetContainer.sm\:bg-shade-lightest.sm\:dark\:bg-black.md\:bg-shade-lightest.md\:dark\:bg-black:nth-child(7) > div.relative.z-20.w-full.mx-auto.sm\:max-w-sm.md\:max-w-md.lg\:max-w-lg > div.relative.lg\:pt-8.md\:pt-8.sm\:pt-4.lg\:px-8.lg\:bg-shade-lightest.lg\:dark\:bg-black:last-child > footer.relative.z-10:last-child > div.z-10.relative > div.shadow.lg\:rounded.bg-shade-darkest.lg\:py-32.md\:py-32.sm\:pt-24.sm\:pb-4:last-child > div.lg\:pt-40.md\:pt-32.sm\:pt-32.lg\:px-24.md\:px-24.sm\:px-16:nth-child(4)
 
 ! Whitelists
 @@||rev.fapsi.be^
