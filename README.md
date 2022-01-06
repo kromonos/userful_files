@@ -22,7 +22,7 @@ Collection of some useful files, mostly for fighting spam and trolls.
 + Postfix installation with header checks and/or
 + Spamassassin
 
-## Installation or Getting Started
+## Installation
 
 ### AdGuard Filter
 
