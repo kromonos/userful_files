@@ -36,7 +36,7 @@ Select the type you want to import with the dropdown and upload the file.
 
 ### Spamassassin
 
-Place the `20_toxic_artists.cf` into `/etc/spamassassin/` and reload spamassassin
+Copy `20_toxic_artists.cf` to `/etc/spamassassin/` and reload spamassassin
 
 ### Postfix
 
