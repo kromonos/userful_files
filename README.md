@@ -48,7 +48,7 @@ header_checks = pcre:/etc/postfix/filter/header_check.pcre
 
 ## Contributors
 
-[Fork this project](https://code.bka.li/repo/fork/19) and create pull requests or create [an issue](https://code.bka.li/BKA.li/useful_files/issues).
+[Fork this project](https://code.bka.li/repo/fork/19) and create pull requests or create [an issue](https://code.bka.li/BKA.li/useful_files/issues/new).
 
 ## License
 
