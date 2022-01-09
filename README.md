@@ -5,20 +5,20 @@ Collection of some useful files, mostly for fighting spam and trolls.
 ## Features
 
 `/Documents` contains some useful documents to use for different purposes  
-`/mastodon blocks` contains blocklists for mastodon to keep your timeline clean  
-`/Scripts` contains scripts to use, blacklist whole ASN  
+`/Mastodon blocks` contains blocklists for mastodon to keep your timeline clean  
+`/Scripts` contains scripts to use, in example the script to block whole ASN via iptables  
 `.editorconfig` Example [editorconfig](https://editorconfig.org/) file  
 `.gitignore` Example gitignore file  
 `.htaccess` Example htaccess file  
-`20_toxic_artists.cf` Spamassassin ruleset to reject declare emails from toxic "artists" as spam  
-`header_check.pcre` Postfix header check to directly reject spam declared emails from `20_toxic_artists.cf`  
-`adguard_filter.txt` Filterset for AdGuard to remove the comment fields from news sites  
-`archive.ip.txt` IP addresses used by archive.org, if you want to block them  
-`lemmy-slur_filter.hjson` Lemmy slur filter regex to keep your [Lemmy](https://join-lemmy.org) instance clean
+`20_toxic_artists.cf` Spamassassin ruleset to add points to toxic "artists" and declare them as spam  
+`header_check.pcre` Postfix header check to directly reject as spam declared emails from `20_toxic_artists.cf`  
+`adguard_filter.txt` Filterset for AdGuard to remove the comment fields from news sites. We want newsand not unqualified comments  
+`archive.ip.txt` IP addresses used by archive.org and archive.is, if you want to block them  
+`lemmy-slur_filter.hjson` Lemmy slur filter regex to keep your [Lemmy](https://join-lemmy.org) instance clean. Used on [fapsi.be](https://fapsi.be)
 
 ## Requirements
 
-+ Mastodon Account and/or
++ Mastodon account and/or
 + Postfix installation with header checks and/or
 + Spamassassin
 
@@ -31,7 +31,7 @@ Enter the [URL to the RAW output](https://code.bka.li/BKA.li/useful_files/raw/br
 
 ### Mastodon blocklists
 
-Goto settings -> Import and export -> Import  
+Goto Settings -> Import and export -> Import  
 Select the type you want to import with the dropdown and upload the file.
 
 ### Spamassassin
@@ -48,7 +48,7 @@ header_checks = pcre:/etc/postfix/filter/header_check.pcre
 
 ## Contributors
 
-Clone this project and create pull requests or create a ticket.
+[Fork this project](https://code.bka.li/repo/fork/19) and create pull requests or create [an issue](https://code.bka.li/BKA.li/useful_files/issues).
 
 ## License
 
