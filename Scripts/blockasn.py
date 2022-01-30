@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+#
+# Original https://github.com/hackers-terabit/blockasn/blob/master/blockasn
+#
+# Small modifications, e.g. jail them into chains, by me, Kromonos <support@bka.li>
+
 import requests,json
 import os,sys,subprocess
 
