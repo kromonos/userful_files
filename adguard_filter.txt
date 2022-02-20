@@ -5,8 +5,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 02-20-2022 11:11 pm CEST
-! Version: 1.1.22.01
+! Last Modified: 02-20-2022 11:47 pm CEST
+! Version: 1.1.22.02
 !
 
 ! Damn comments
