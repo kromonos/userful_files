@@ -5,8 +5,8 @@
 ! Homepage: https://bka.li/
 ! Contribute: https://code.bka.li/kromonos/useful_files
 ! Please report problems to support@bka.li or https://support.bka.li
-! Last Modified: 12-26-2021 07:18 pm CEST
-! Version: 1.1.21.01
+! Last Modified: 02-20-2022 11:11 pm CEST
+! Version: 1.1.22.01
 !
 
 ! Damn comments
@@ -225,6 +225,10 @@ spiegel.de##div.OffsetContainer.sm\:bg-shade-lightest.sm\:dark\:bg-black.md\:bg-
 spiegel.de##div.OffsetContainer.sm\:bg-shade-lightest.sm\:dark\:bg-black.md\:bg-shade-lightest.md\:dark\:bg-black:nth-child(7) > div.relative.z-20.w-full.mx-auto.sm\:max-w-sm.md\:max-w-md.lg\:max-w-lg > div.relative.lg\:pt-8.md\:pt-8.sm\:pt-4.lg\:px-8.lg\:bg-shade-lightest.lg\:dark\:bg-black:last-child > footer.relative.z-10:last-child > div.z-10.relative > div.shadow.lg\:rounded.bg-shade-darkest.lg\:py-32.md\:py-32.sm\:pt-24.sm\:pb-4:last-child > div.sm\:overflow-hidden:first-child
 spiegel.de##div.OffsetContainer.sm\:bg-shade-lightest.sm\:dark\:bg-black.md\:bg-shade-lightest.md\:dark\:bg-black:nth-child(7) > div.relative.z-20.w-full.mx-auto.sm\:max-w-sm.md\:max-w-md.lg\:max-w-lg > div.relative.lg\:pt-8.md\:pt-8.sm\:pt-4.lg\:px-8.lg\:bg-shade-lightest.lg\:dark\:bg-black:last-child > footer.relative.z-10:last-child > div.z-10.relative > div.shadow.lg\:rounded.bg-shade-darkest.lg\:py-32.md\:py-32.sm\:pt-24.sm\:pb-4:last-child > div.bg-black.lg\:py-40.md\:py-32.sm\:py-24.sm\:mt-8:nth-child(3)
 spiegel.de##div.OffsetContainer.sm\:bg-shade-lightest.sm\:dark\:bg-black.md\:bg-shade-lightest.md\:dark\:bg-black:nth-child(7) > div.relative.z-20.w-full.mx-auto.sm\:max-w-sm.md\:max-w-md.lg\:max-w-lg > div.relative.lg\:pt-8.md\:pt-8.sm\:pt-4.lg\:px-8.lg\:bg-shade-lightest.lg\:dark\:bg-black:last-child > footer.relative.z-10:last-child > div.z-10.relative > div.shadow.lg\:rounded.bg-shade-darkest.lg\:py-32.md\:py-32.sm\:pt-24.sm\:pb-4:last-child > div.lg\:pt-40.md\:pt-32.sm\:pt-32.lg\:px-24.md\:px-24.sm\:px-16:nth-child(4)
+computerbase.de###content > div.block1.block1--top:nth-child(3) > div.wrapper > div.row.padding-2.row--article-view > article.article-view > footer.article-view__footer.text-width:last-child > div.article-view__footer-links:first-child
+computerbase.de###content > aside.block1.block1--pro-box:nth-child(4) > div.wrapper > div.row.padding-0 > div.pro-box
+computerbase.de###content > aside.block1.block1--breakout-2.no-print:last-child > div.wrapper > div.row.padding-2 > ul.content-list.related-list.js-quantum-related:last-child
+computerbase.de##footer.footer.non-critical:nth-child(4) > div.block1.footer1:first-child
 
 ! Whitelists
 @@||rev.fapsi.be^
