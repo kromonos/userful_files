@@ -1,23 +1,23 @@
 [
     {
         "domain": "gab.com",
-        "public_comment": "Hate speech instance"
+        "public_comment": "Hate speech instance, extreme right-wing thinking"
     },
     {
         "domain": "preview.goatpen.co",
-        "public_comment": "Hate speech instance"
+        "public_comment": "Spam instance"
     },
     {
         "domain": "legbeard.xyz",
-        "public_comment": "Hate speech instance"
+        "public_comment": "Hate speech instance, extreme right-wing thinking"
     },
     {
         "domain": "wolfballs.com",
-        "public_comment": "Hate speech and spam instance"
+        "public_comment": "Hate speech and spam instance, extreme right-wing thinking"
     },
     {
         "domain": "narwhal.city",
-        "public_comment": "Hate speech instance"
+        "public_comment": "Spam instance"
     },
     {
         "domain": "lotide.fbxl.net",
@@ -25,19 +25,19 @@
     },
     {
         "domain": "a.tide.tk",
-        "public_comment": "Hate speech instance"
+        "public_comment": "Spam instance"
     },
     {
         "domain": "b.tide.tk",
-        "public_comment": "Hate speech instance"
+        "public_comment": "Spam instance"
     },
     {
         "domain": "c.tide.tk",
-        "public_comment": "Hate speech instance"
+        "public_comment": "Spam instance"
     },
     {
         "domain": "dev.narwhal.city",
-        "public_comment": "Hate speech instance"
+        "public_comment": "Spam instance"
     },
     {
         "domain": "baraag.net",
@@ -45,7 +45,7 @@
     },
     {
         "domain": "bitcoinhackers.org",
-        "public_comment": "Spam instance"
+        "public_comment": "Crypto-Spam instance"
     },
     {
         "domain": "counter.fedi.live",
@@ -65,19 +65,19 @@
     },
     {
         "domain": "freeatlantis.com",
-        "public_comment": "Spam instance"
+        "public_comment": "Spam instance, extreme right-wing thinking"
     },
     {
         "domain": "freecumextremist.com",
-        "public_comment": "Spam instance"
+        "public_comment": "Spam instance, extreme right-wing thinking"
     },
     {
         "domain": "freespeechextremist.com",
-        "public_comment": "Spam instance"
+        "public_comment": "Spam instance, extreme right-wing thinking"
     },
     {
         "domain": "fuckonthefirst.date",
-        "public_comment": "Spam instance"
+        "public_comment": "Porn"
     },
     {
         "domain": "gleasonator.com",
@@ -85,7 +85,7 @@
     },
     {
         "domain": "hackers.town",
-        "public_comment": "Hate speech and spam instance"
+        "public_comment": "Misuse of #Fediblock, Hate speech, spreading untruths, incitement to bullying and doxxing"
     },
     {
         "domain": "hentai.baby",
@@ -97,7 +97,7 @@
     },
     {
         "domain": "mentalhealth.social",
-        "public_comment": "Hate speech and spam instance"
+        "public_comment": "Misuse of #Fediblock, Hate speech, spreading untruths, incitement to bullying and doxxing"
     },
     {
         "domain": "homoo.social",
@@ -117,15 +117,15 @@
     },
     {
         "domain": "kitty.town",
-        "public_comment": "Spam instance"
+        "public_comment": "Misuse of #Fediblock, Hate speech, spreading untruths, incitement to bullying and doxxing"
     },
     {
         "domain": "kiwifarms.cc",
-        "public_comment": "Spam instance"
+        "public_comment": "Spam and hate speech instance"
     },
     {
         "domain": "lgbt.io",
-        "public_comment": "Spam instance"
+        "public_comment": "Misuse of #Fediblock, Hate speech, spreading untruths, incitement to bullying and doxxing"
     },
     {
         "domain": "liberdon.com",
@@ -145,19 +145,19 @@
     },
     {
         "domain": "mastodonten.de",
-        "public_comment": "Spam instance"
+        "public_comment": "Hate speech, spreading untruths, incitement to bullying and doxxing"
     },
     {
         "domain": "my.dirtyhobby.xyz",
-        "public_comment": "Spam instance"
+        "public_comment": "Porn instance"
     },
     {
         "domain": "nazi.social",
-        "public_comment": "Spam instance"
+        "public_comment": "Spam instance, extreme right-wing thinking"
     },
     {
         "domain": "neckbeard.xyz",
-        "public_comment": "Spam instance"
+        "public_comment": "Spam instance, extreme right-wing thinking"
     },
     {
         "domain": "nnia.space",
@@ -189,15 +189,15 @@
     },
     {
         "domain": "poa.st",
-        "public_comment": "Spam instance"
+        "public_comment": "Spam instance, extreme right-wing thinking"
     },
     {
         "domain": "pornfed.xyz",
-        "public_comment": "Spam instance"
+        "public_comment": "Porn"
     },
     {
         "domain": "posting.lolicon.rocks",
-        "public_comment": "Spam instance"
+        "public_comment": "Porn"
     },
     {
         "domain": "rakket.app",
@@ -209,7 +209,7 @@
     },
     {
         "domain": "sea.soundship.de",
-        "public_comment": "Spam instance"
+        "public_comment": "Misuse of #Fediblock, Hate speech, spreading untruths, incitement to bullying and doxxing"
     },
     {
         "domain": "shigusegubu.club",
@@ -225,7 +225,7 @@
     },
     {
         "domain": "social.freetalklive.com",
-        "public_comment": "Spam instance"
+        "public_comment": "Spam instance, extreme right-wing thinking"
     },
     {
         "domain": "societal.co",
@@ -245,7 +245,7 @@
     },
     {
         "domain": "tenforward.social",
-        "public_comment": "Hate speech and spam instance"
+        "public_comment": "Misuse of #Fediblock, Hate speech, spreading untruths, incitement to bullying and doxxing"
     },
     {
         "domain": "toot.matereal.eu",
@@ -261,11 +261,11 @@
     },
     {
         "domain": "yggdrasil.social",
-        "public_comment": "Spam instance"
+        "public_comment": "Spam instance, extreme right-wing thinking"
     },
     {
         "domain": "youjo.love",
-        "public_comment": "Spam instance"
+        "public_comment": "Misuse of #Fediblock, Hate speech, spreading untruths, incitement to bullying and doxxing"
     },
     {
         "domain": "jorts.horse",
@@ -273,7 +273,7 @@
     },
     {
         "domain": "mastodon.lol",
-        "public_comment": "Spam instance"
+        "public_comment": "Misuse of #Fediblock"
     },
     {
         "domain": "social.fpvogel.com",
