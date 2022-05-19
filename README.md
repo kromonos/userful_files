@@ -6,6 +6,7 @@ Collection of some useful files, mostly for fighting spam and trolls.
 
 `/Documents` contains some useful documents to use for different purposes  
 `/Mastodon blocks` contains blocklists for mastodon to keep your timeline clean  
+`/Mastodon blocks/fediblockers.csv` contains a list of instances who abuse the hash tag #Fediblock to spread hate and lies
 `/Scripts` contains scripts to use, in example the script to block whole ASN via iptables  
 `.editorconfig` Example [editorconfig](https://editorconfig.org/) file  
 `.gitignore` Example gitignore file  
