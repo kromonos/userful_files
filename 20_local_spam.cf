@@ -1,9 +1,9 @@
 header __SPAM_SUBJECT Subject =~ /Email\squota\sexceeded/i
 uri    __SPAM_URIS /((pfizersupplychain|genericday)\.com|inx\.lv|toyotatarabya\.com|jhj\.com\.cn|(qr\.api\.)?cli\.im|zpr\.io)/i
 
-header __MASKOFFICE_REC_SPAM Received =~ /(schutz\-maske|jacksparrowcostuming|amcrimhalves|gadgeupdates|earsview)\.com|eppendorfer\-gesundheitspraxis\.de|sabukan\.us|(witheoral|quechollive|ongrsarta|larminaft|tonotirs|femtronit|bonerango)\.xyz|\.xyz|frontrowamy\.net/i
+header __MASKOFFICE_REC_SPAM Received =~ /(schutz\-maske|jacksparrowcostuming|amcrimhalves|gadgeupdates|earsview|romero\-hnos)\.com|eppendorfer\-gesundheitspraxis\.de|sabukan\.us|(witheoral|quechollive|ongrsarta|larminaft|tonotirs|femtronit|bonerango)\.xyz|\.xyz|frontrowamy\.net|montero\.vip/i
 header __MASKOFFICE_MID_SPAM Message-id =~ /schutz\-maske\.com|eppendorfer\-gesundheitspraxis\.de|sabukan\.us/i
-header __MASKOFFICE_SPAM From =~ /schutz\-maske\.com|eppendorfer\-gesundheitspraxis\.de|(sabukan|hairbybrian)\.us|(schnelltests\-sofort\-lieferbar\-bfarm|hotgentests|profimasken)\.com|werkzeughandel|(pix-factory|netweight)\.net/i
+header __MASKOFFICE_SPAM From =~ /schutz\-maske\.com|eppendorfer\-gesundheitspraxis\.de|(sabukan|hairbybrian)\.us|(schnelltests\-sofort\-lieferbar\-bfarm|hotgentests|profimasken)\.com|werkzeug(e|handel)|(pix-factory|netweight)\.net|/i
 header __MASKOFFICE_REPLY Reply-To =~ /buerokaiser\.com/i
 header __MASKOFFICE_SUB_SPAM Subject =~ /Tests(.*)lieferbar|FFP2(.*)farbig/i
 
@@ -17,7 +17,6 @@ header __SPAM_FROM From =~ /schutz-masken\.shop|govali.com|mouldmakers.top|lysun
 meta     DUMP_SPAM (__SPAM_MSG_ID || __SPAM_FROM || SPAM_URIS || __SPAM_SUBJECT)
 score    DUMP_SPAM 15
 describe DUMP_SPAM Idiots spamming
-
 
 header __MAILER_SPAM Received =~ /haraka/i
 meta     MAILER_SPAM (__SPAM_SUBJECT || __MAILER_SPAM)
