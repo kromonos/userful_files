@@ -13,7 +13,7 @@ describe MASKOFFICE_SPAM Go fuck off and spam someone else!
 
 header __SPAM_MSG_ID Message-id =~ /innobotics\.eu|fearof\.net|dubaitravelplanner.com/i
 header __SPAM_RPL_TO Reply-To =~ /vacation(\w+)?@/i
-header __SPAM_FROM From =~ /schutz-masken\.shop|mouldmakers.top|anonymousemail\.me|mailed\.ro|07\.fsin\.gov\.ru|(govali|lysun|hotwheesl|maildx|mizyte|bitcoin\-ueberpruefung|korea\-stone|firenze\-ulcinj|lampesend)\.com/i
+header __SPAM_FROM From =~ /schutz-masken\.shop|mouldmakers\.top|anonymousemail\.me|mailed\.ro|07\.fsin\.gov\.ru|(govali|lysun|hotwheesl|maildx|mizyte|bitcoin\-ueberpruefung|korea\-stone|firenze\-ulcinj|lampesend)\.com|litecnic\.info/i
 meta     DUMP_SPAM (__SPAM_MSG_ID || __SPAM_FROM || SPAM_URIS || __SPAM_SUBJECT)
 score    DUMP_SPAM 15
 describe DUMP_SPAM Idiots spamming
