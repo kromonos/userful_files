@@ -3,8 +3,8 @@ uri    __SPAM_URIS /((pfizersupplychain|genericday)\.com|inx\.lv|toyotatarabya\.
 
 header __MASKOFFICE_REC_SPAM Received =~ /(schutz\-maske|jacksparrowcostuming|amcrimhalves|gadgeupdates|earsview|romero\-hnos|ulcinj|5thluxury)\.com|eppendorfer\-gesundheitspraxis\.de|sabukan\.us|(witheoral|quechollive|ongrsarta|larminaft|tonotirs|femtronit|bonerango)\.xyz|\.xyz|frontrowamy\.net|montero\.vip/i
 header __MASKOFFICE_MID_SPAM Message-id =~ /schutz\-maske\.com|eppendorfer\-gesundheitspraxis\.de|sabukan\.us/i
-header __MASKOFFICE_SPAM From =~ /schutz\-maske\.com|eppendorfer\-gesundheitspraxis\.de|(sabukan|hairbybrian)\.us|(schnelltests\-sofort\-lieferbar\-bfarm|hotgentests|profimasken)\.com|werkzeug(e|handel)|(pix-factory|netweight|notstromgenerator)\.net|(govali|lysun|hotwheesl|maildx|mizyte|bitcoin\-ueberpruefung|korea\-stone|officeeinrichter|klimageraeteversand)\.com/i
-header __MASKOFFICE_REPLY Reply-To =~ /buerokaiser\.com/i
+header __MASKOFFICE_SPAM From =~ /(schutz\-maske|eazy\-finanz)\.com|eppendorfer\-gesundheitspraxis\.de|(sabukan|hairbybrian)\.us|(schnelltests\-sofort\-lieferbar\-bfarm|hotgentests|profimasken)\.com|werkzeug(e|handel)|(pix-factory|netweight|notstromgenerator)\.net|(govali|lysun|hotwheesl|maildx|mizyte|bitcoin\-ueberpruefung|korea\-stone|officeeinrichter|klimageraeteversand)\.com/i
+header __MASKOFFICE_REPLY Reply-To =~ /(buerokaiser|eazy\-finanz)\.com/i
 header __MASKOFFICE_SUB_SPAM Subject =~ /Tests(.*)lieferbar|FFP2(.*)farbig/i
 
 meta     MASKOFFICE_SPAM (__MASKOFFICE_REC_SPAM || __MASKOFFICE_SPAM || __SPAM_URIS || __MASKOFFICE_MID_SPAM || __MASKOFFICE_SUB_SPAM || __MASKOFFICE_REPLY)
