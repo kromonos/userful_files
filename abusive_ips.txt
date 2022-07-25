@@ -1,0 +1,9 @@
+217.182.38.249    # Masto.host
+178.33.220.140    # Masto.host abusive mastodon instances
+178.33.220.141    # Masto.host abusive mastodon instances
+178.33.220.142    # Masto.host abusive mastodon instances
+178.33.220.143    # Masto.host abusive mastodon instances
+176.31.213.228    # Masto.host abusive mastodon instances
+176.31.213.229    # Masto.host abusive mastodon instances
+176.31.213.230    # Masto.host abusive mastodon instances
+176.31.213.231    # Masto.host abusive mastodon instances

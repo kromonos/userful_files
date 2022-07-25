@@ -12,6 +12,7 @@ Collection of some useful files, mostly for fighting spam and trolls.
 `.gitignore` Example gitignore file  
 `.htaccess` Example htaccess file  
 `20_toxic_artists.cf` Spamassassin ruleset to add points to toxic "artists" and declare them as spam  
+`abusive_ips.txt` Contains IP addresses of abusive services. E.g. those who allow toxic behaviour on their servers  
 `header_check.pcre` Postfix header check to directly reject as spam declared emails from `20_toxic_artists.cf`  
 `adguard_filter.txt` Filterset for AdGuard to remove the comment fields from news sites. We want newsand not unqualified comments  
 `archive.ip.txt` IP addresses used by archive.org and archive.is, if you want to block them  
